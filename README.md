@@ -8,7 +8,7 @@
 
 ## Nome do Grupo
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">André Luís Lessa Junior</a>, <a href="https://www.linkedin.com/in/andr%C3%A9-lu%C3%ADs-lessa-junior-779801205/">João Alfredo Lamy</a>, <a href="https://www.linkedin.com/in/victorbarq/">Jonas Viana Sales</a>, <a href="https://www.linkedin.com/in/victorbarq/">Luiz Dallorto</a>, <a href="https://www.linkedin.com/in/victorbarq/">Moises Cazé</a>, <a href="https://www.linkedin.com/in/victorbarq/">Oliver Silva</a>
+## Integrantes: <a href="https://www.linkedin.com/in/andr%C3%A9-lu%C3%ADs-lessa-junior-779801205/">André Luís Lessa Junior</a>, <a href="https://www.linkedin.com/in/victorbarq/">João Alfredo Lamy</a>, <a href="https://www.linkedin.com/in/victorbarq/">Jonas Viana Sales</a>, <a href="https://www.linkedin.com/in/victorbarq/">Luiz Dallorto</a>, <a href="https://www.linkedin.com/in/victorbarq/">Moises Cazé</a>, <a href="https://www.linkedin.com/in/victorbarq/">Oliver Silva</a>
 
 ## Descrição
 
