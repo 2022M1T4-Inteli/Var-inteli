@@ -50,7 +50,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="arminha - 2"
+config/name="Edições locais"
 run/main_scene="res://Node2D.tscn"
 boot_splash/image="res://DeV.png"
 config/icon="res://DeV.png"
