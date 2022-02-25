@@ -50,7 +50,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Edições locais"
+config/name="GitHub"
 run/main_scene="res://Node2D.tscn"
 boot_splash/image="res://DeV.png"
 config/icon="res://DeV.png"
