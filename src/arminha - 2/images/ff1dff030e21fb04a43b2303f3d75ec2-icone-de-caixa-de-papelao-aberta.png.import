@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/IMG-1887.jpg-3e5d0c51c9fea65e8c40ee809896707a.stex"
+path="res://.import/ff1dff030e21fb04a43b2303f3d75ec2-icone-de-caixa-de-papelao-aberta.png-a58c1e29db2e85a509a6ea4079b61ff5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://IMG-1887.jpg"
-dest_files=[ "res://.import/IMG-1887.jpg-3e5d0c51c9fea65e8c40ee809896707a.stex" ]
+source_file="res://images/ff1dff030e21fb04a43b2303f3d75ec2-icone-de-caixa-de-papelao-aberta.png"
+dest_files=[ "res://.import/ff1dff030e21fb04a43b2303f3d75ec2-icone-de-caixa-de-papelao-aberta.png-a58c1e29db2e85a509a6ea4079b61ff5.stex" ]
 
 [params]
 

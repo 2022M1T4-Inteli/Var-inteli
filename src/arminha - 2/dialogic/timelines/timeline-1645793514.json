@@ -4,7 +4,7 @@
 			"character": "character-1645793494.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Olá! Seja bem-vindo ao centro de testes de Engenharia da Computação!"
+			"text": "Olá! Bem-vindo ao centro de testes de Engenharia da Computação. Você possui [pontos] pontos."
 		},
 		{
 			"event_id": "dialogic_022",

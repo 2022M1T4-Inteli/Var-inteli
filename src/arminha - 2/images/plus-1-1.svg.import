@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/branco.png-89f17c8fe0ecac0e345ec0a41fe3c171.stex"
+path="res://.import/plus-1-1.svg-2c5ac8f9e2eb86634d42e6c2f7332921.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://branco.png"
-dest_files=[ "res://.import/branco.png-89f17c8fe0ecac0e345ec0a41fe3c171.stex" ]
+source_file="res://images/plus-1-1.svg"
+dest_files=[ "res://.import/plus-1-1.svg-2c5ac8f9e2eb86634d42e6c2f7332921.stex" ]
 
 [params]
 

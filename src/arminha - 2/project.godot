@@ -52,8 +52,12 @@ _global_script_class_icons={
 
 config/name="GitHub"
 run/main_scene="res://Node2D.tscn"
-boot_splash/image="res://DeV.png"
-config/icon="res://DeV.png"
+boot_splash/image="res://images/DeV.png"
+config/icon="res://images/DeV.png"
+
+[autoload]
+
+Global="*res://scripts/Global.gd"
 
 [editor_plugins]
 
