@@ -1,19 +1,5 @@
 extends KinematicBody2D
 
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
 # constantes definem a movimentação do pulo do personagem, é necessário ter duas por causa da fase com a gravidade invertida
 const DOWN = Vector2(0, 1)
 const UP = Vector2(0, -1)
@@ -78,9 +64,8 @@ func _physics_process(delta):
 		if (position.y>2200)&& (position.y<2304)&& (position.x>0)&& (position.x<2560):
 			position.y = 1600
 			position.x = 256
-		if (position.y>1600)&& (position.y<1664)&& (position.x>2560)&& (position.x<2624):
-			position.y = 608
-			position.x = 104
+		
+#		if Global.teleporte:
 	
 	#fase verde, gravidade invertida
 	if (position.x>2994)&& (position.x<5504)&& (position.y<-700)&& (position.y>-1600):

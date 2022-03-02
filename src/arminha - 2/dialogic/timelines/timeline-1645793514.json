@@ -4,7 +4,13 @@
 			"character": "character-1645793494.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Olá! Bem-vindo ao centro de testes de Engenharia da Computação. Você possui [pontos] pontos."
+			"text": "Olá! Bem-vindo ao centro de testes de Engenharia da Computação."
+		},
+		{
+			"character": "character-1645793494.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ajude a montar o robô que de encontra no final dessa fase. Para isso, pegue as caixas com peças robóticas espalhadas pelo cenário e devolva-as ao robô."
 		},
 		{
 			"event_id": "dialogic_022",
