@@ -51,7 +51,7 @@ _global_script_class_icons={
 [application]
 
 config/name="GitHub"
-run/main_scene="res://Node2D.tscn"
+run/main_scene="res://Menu.tscn"
 boot_splash/image="res://images/DeV.png"
 config/icon="res://images/DeV.png"
 
