@@ -4,10 +4,13 @@ var active = false
 var placeholder = 0
 onready var timer = get_node("Timer")
 
+# Chama uma função caso um corpo entre
 func _ready():
 	connect("body_entered", self, '_on_Caixa_body_entered')
 	connect("body_exited", self, '_on_Caixa_body_exited')
 	$Sprite2.visible = false
+
+# Adiciona um ponto ao usuário e a caixa desaparece
 
 func _input(event):
 	if Input.is_action_just_pressed("ui_accept") and placeholder == 0 and active:
