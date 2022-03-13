@@ -14,6 +14,10 @@ config/name="DeIV"
 run/main_scene="res://src/Levels/Hub.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Global="*res://Global.gd"
+
 [input]
 
 move_left={
@@ -49,7 +53,7 @@ move_down={
 
 2d_physics/layer_1="player"
 2d_physics/layer_2="portal"
-2d_physics/layer_3="coins"
+2d_physics/layer_3="hardware"
 2d_physics/layer_4="world"
 
 [physics]
