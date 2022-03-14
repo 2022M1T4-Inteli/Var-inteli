@@ -33,23 +33,23 @@ tile_data = PoolIntArray( -65538, 0, 0, -65537, 0, 0, -131072, 0, 0, -131071, 0,
 position = Vector2( 369, 1056 )
 path_to_scene = "res://src/Levels/Hub.tscn"
 
-[node name="Portal4" parent="." instance=ExtResource( 3 )]
-position = Vector2( 328, 319 )
-path_to_scene = "res://src/Levels/Hub.tscn"
-
 [node name="Portal3" parent="." instance=ExtResource( 3 )]
-position = Vector2( 364, 1551 )
+position = Vector2( 369, 1551 )
 path_to_scene = "res://src/Levels/Level01.tscn"
 
 [node name="Portal2" parent="." instance=ExtResource( 3 )]
 position = Vector2( 2645, 457 )
 path_to_scene = "res://src/Levels/Hub.tscn"
 
+[node name="Portal4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 369, 399 )
+path_to_scene = "res://src/Levels/Hub.tscn"
+
 [node name="ProfessorCC" parent="." instance=ExtResource( 5 )]
 position = Vector2( 563, 1436 )
 
 [node name="ProfessorSI" parent="." instance=ExtResource( 8 )]
-position = Vector2( 533, 181 )
+position = Vector2( 564, 286 )
 
 [node name="ProfessorES" parent="." instance=ExtResource( 7 )]
 position = Vector2( 2436, 349 )
