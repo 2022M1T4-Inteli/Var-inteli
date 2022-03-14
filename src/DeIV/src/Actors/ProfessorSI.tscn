@@ -1,14 +1,13 @@
 [gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://icon.png" type="Texture" id=1]
-[ext_resource path="res://src/Actors/ProfessorCC.gd" type="Script" id=2]
+[ext_resource path="res://src/Actors/ProfessorSI.gd" type="Script" id=2]
 
 [sub_resource type="CircleShape2D" id=1]
-radius = 95.0053
+radius = 98.0
 
-[node name="ProfessorCC" type="Area2D"]
+[node name="ProfessorSI" type="Area2D"]
 collision_layer = 16
-monitorable = false
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]

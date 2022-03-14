@@ -1,10 +1,10 @@
 {
 	"events": [
 		{
-			"character": "character-1647273432.json",
+			"character": "character-1647281850.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "CC"
+			"text": "ES"
 		},
 		{
 			"event_id": "dialogic_022",
@@ -13,7 +13,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.3",
-		"file": "timeline-1647273423.json",
-		"name": "timeline-1"
+		"file": "timeline-1647281969.json",
+		"name": "timeline-4"
 	}
 }
