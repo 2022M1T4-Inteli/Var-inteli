@@ -291,12 +291,13 @@ _global_script_class_icons={
 [application]
 
 config/name="DeIV"
-run/main_scene="res://src/Levels/Hub.tscn"
+run/main_scene="res://src/MainMenu.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
 Global="*res://Global.gd"
+Music="*res://src/Music.tscn"
 
 [editor_plugins]
 

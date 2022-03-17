@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 const GRAVITY:float = 1700.0
-const SPEED: = Vector2(800.0, 800.0)
+const SPEED: = Vector2(600.0, 800.0)
 var _velocity: = Vector2.ZERO
 
 
@@ -52,15 +52,5 @@ func calculate_non_physics_move_velocity(
 	_out.y = SPEED.y * _direction.y
 	return _out
 
-
-func _ready():
-	OS.window_fullscreen = true # Deixa o jogo em tela cheia
-
-
-# Termina o jogo caso ESC seja pressionado
-func _input(_event):
-	if Input.is_action_pressed("ui_cancel"):
-		get_tree().quit()
-
-	
-	
+func _on_Morrer_body_entered(body: Node) -> void:
+	get_tree().change_scene("res://src/Levels/Level01.tscn")

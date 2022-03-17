@@ -1,10 +1,36 @@
 {
 	"events": [
 		{
+			"action": "join",
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1647281645.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "EC"
+			"text": "A engenharia da computação tem um foco maior em hardware, ou seja, a parte física do computador."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Entre no portal e divirta-se com os desafios aprendendo mais sobre engenharia da computação."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Olá! Bem vindo ao Ateliê 1. Meu nome é Ana, sou formada em Engenharia da Computação."
 		},
 		{
 			"event_id": "dialogic_022",
