@@ -18,6 +18,12 @@
 			"character": "character-1647281645.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
+			"text": "Olá! Bem vindo ao Ateliê 1. Meu nome é Ana, sou formada em Engenharia da Computação."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
 			"text": "A engenharia da computação tem um foco maior em hardware, ou seja, a parte física do computador."
 		},
 		{
@@ -25,12 +31,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Entre no portal e divirta-se com os desafios aprendendo mais sobre engenharia da computação."
-		},
-		{
-			"character": "character-1647281645.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Olá! Bem vindo ao Ateliê 1. Meu nome é Ana, sou formada em Engenharia da Computação."
 		},
 		{
 			"event_id": "dialogic_022",
