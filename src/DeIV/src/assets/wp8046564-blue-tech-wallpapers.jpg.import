@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/caixa de texto.png-2cc858170d2ad25a97f333e31a5634b3.stex"
+path="res://.import/wp8046564-blue-tech-wallpapers.jpg-2d76a89dad4b58a9ae2f88af9ef6d0b1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/levels/caixa de texto.png"
-dest_files=[ "res://.import/caixa de texto.png-2cc858170d2ad25a97f333e31a5634b3.stex" ]
+source_file="res://src/assets/wp8046564-blue-tech-wallpapers.jpg"
+dest_files=[ "res://.import/wp8046564-blue-tech-wallpapers.jpg-2d76a89dad4b58a9ae2f88af9ef6d0b1.stex" ]
 
 [params]
 

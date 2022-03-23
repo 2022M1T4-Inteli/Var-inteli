@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/caixa de texto.png-2cc858170d2ad25a97f333e31a5634b3.stex"
+path="res://.import/DeV.png-b65cae11eee0aebb52f49abe78877a55.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/levels/caixa de texto.png"
-dest_files=[ "res://.import/caixa de texto.png-2cc858170d2ad25a97f333e31a5634b3.stex" ]
+source_file="res://src/assets/DeV.png"
+dest_files=[ "res://.import/DeV.png-b65cae11eee0aebb52f49abe78877a55.stex" ]
 
 [params]
 

@@ -172,7 +172,7 @@ _global_script_classes=[ {
 "base": "Area2D",
 "class": "ProfessorBase",
 "language": "GDScript",
-"path": "res://src/Actors/ProfessorBase.gd"
+"path": "res://src/actors/professoraAna/professorBase.gd"
 }, {
 "base": "Resource",
 "class": "QuestData",
@@ -291,13 +291,13 @@ _global_script_class_icons={
 [application]
 
 config/name="DeIV"
-run/main_scene="res://src/MainMenu.tscn"
-config/icon="res://icon.png"
+run/main_scene="res://src/menus/mainMenu/mainMenu.tscn"
+config/icon="res://src/assets/DeV.png"
 
 [autoload]
 
-Global="*res://Global.gd"
-Music="*res://src/Music.tscn"
+Global="*res://src/global/Global.gd"
+BackgroundMusic="*res://src/global/backgroundMusic.tscn"
 
 [editor_plugins]
 

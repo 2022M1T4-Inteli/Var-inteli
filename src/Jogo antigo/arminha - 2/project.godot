@@ -50,7 +50,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="GitHub"
+config/name="Jogo Antigo"
 run/main_scene="res://Menu.tscn"
 boot_splash/image="res://images/DeV.png"
 config/icon="res://images/DeV.png"

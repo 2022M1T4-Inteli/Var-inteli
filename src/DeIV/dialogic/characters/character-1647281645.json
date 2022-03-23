@@ -13,7 +13,7 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://anaaaaaa222222.png"
+			"path": "res://src/actors/professoraAna/anaaaaaa222222.png"
 		}
 	],
 	"scale": 100

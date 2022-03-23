@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/caixa de texto.png-2cc858170d2ad25a97f333e31a5634b3.stex"
+path="res://.import/sensor.png-7611d88be75d3f7d043c5f2d03d84cf6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/levels/caixa de texto.png"
-dest_files=[ "res://.import/caixa de texto.png-2cc858170d2ad25a97f333e31a5634b3.stex" ]
+source_file="res://src/objects/hardware/sensor/sensor.png"
+dest_files=[ "res://.import/sensor.png-7611d88be75d3f7d043c5f2d03d84cf6.stex" ]
 
 [params]
 

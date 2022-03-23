@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/caixa de texto.png-2cc858170d2ad25a97f333e31a5634b3.stex"
+path="res://.import/metalScrape.png-00262a992622fc698b7cd1c89a6bc7a3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/levels/caixa de texto.png"
-dest_files=[ "res://.import/caixa de texto.png-2cc858170d2ad25a97f333e31a5634b3.stex" ]
+source_file="res://src/objects/hardware/metalScrape/metalScrape.png"
+dest_files=[ "res://.import/metalScrape.png-00262a992622fc698b7cd1c89a6bc7a3.stex" ]
 
 [params]
 
