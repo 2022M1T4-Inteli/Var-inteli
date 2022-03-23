@@ -14,7 +14,7 @@ func _input(event):
 					dialog.connect('timeline_end', self, 'unpause')
 					add_child(dialog)
 				"Level01":
-					if Global.hardware == [1, 1, 1, 1]:
+					if global.hardware == [true, true, true, true]:
 						get_tree().paused = true
 						var dialog = Dialogic.start('timeline-6')
 						dialog.pause_mode = Node.PAUSE_MODE_PROCESS

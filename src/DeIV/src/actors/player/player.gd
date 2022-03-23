@@ -45,5 +45,12 @@ func calculate_non_physics_move_velocity(
 	_out.y = SPEED.y * _direction.y
 	return _out
 
+
+func _input(_event: InputEvent) -> void:
+	if Input.is_action_just_pressed("jump") and is_on_floor():
+		$SoundJump.play()
+		
+
+
 func _on_Morrer_body_entered(_body: Node) -> void:
 	get_tree().change_scene("res://src/Levels/level01.tscn")

@@ -1,6 +1,6 @@
 extends Node
 
-var hardware = [0, 0, 0, 0]
+var hardware = [false, false, false, false]
 
 
 func _ready():

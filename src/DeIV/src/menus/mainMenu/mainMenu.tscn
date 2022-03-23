@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://src/menus/mainMenu/mainMenu.gd" type="Script" id=1]
 [ext_resource path="res://src/Objects/04B_30__.TTF" type="DynamicFontData" id=2]
 [ext_resource path="res://src/assets/wp8046564-blue-tech-wallpapers.jpg" type="Texture" id=3]
+[ext_resource path="res://src/music/Retro Beat.ogg" type="AudioStream" id=4]
 
 [sub_resource type="DynamicFont" id=4]
 size = 60
@@ -84,6 +85,10 @@ margin_bottom = 149.0
 focus_neighbour_bottom = NodePath("../StartButton")
 custom_fonts/font = SubResource( 3 )
 text = "Quit"
+
+[node name="MusicTitleScreen" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+autoplay = true
 
 [connection signal="pressed" from="TextureRect/VBoxContainer/StartButton" to="." method="_on_StartButton_pressed"]
 [connection signal="pressed" from="TextureRect/VBoxContainer/OptionsButton" to="." method="_on_OptionsButton_pressed"]
