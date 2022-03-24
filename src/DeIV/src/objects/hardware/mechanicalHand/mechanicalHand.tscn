@@ -67,7 +67,6 @@ tracks/1/keys = {
 }
 
 [node name="MechanicalHand" type="Area2D"]
-modulate = Color( 1, 1, 1, 0 )
 position = Vector2( 0, 10 )
 collision_layer = 4
 script = ExtResource( 2 )
