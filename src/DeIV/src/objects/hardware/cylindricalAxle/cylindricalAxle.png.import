@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cylindricalAxle.png-1f33f79f4c8864776ba083319b692f2a.stex"
+path="res://.import/cylindricalAxle.png-f766011801e3855da646db89489be7bd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/objects/hardware/cylindricalAxle/cylindricalAxle.png"
-dest_files=[ "res://.import/cylindricalAxle.png-1f33f79f4c8864776ba083319b692f2a.stex" ]
+source_file="res://src/Objects/hardware/cylindricalAxle/cylindricalAxle.png"
+dest_files=[ "res://.import/cylindricalAxle.png-f766011801e3855da646db89489be7bd.stex" ]
 
 [params]
 

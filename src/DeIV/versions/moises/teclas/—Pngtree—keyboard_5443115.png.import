@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mechanicalHand.png-920153bb0eba7a0dc1b188ef190081f3.stex"
+path="res://.import/—Pngtree—keyboard_5443115.png-22b6a23638a3817567618505cdc12115.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/Objects/hardware/mechanicalHand/mechanicalHand.png"
-dest_files=[ "res://.import/mechanicalHand.png-920153bb0eba7a0dc1b188ef190081f3.stex" ]
+source_file="res://src/assets/teclas/—Pngtree—keyboard_5443115.png"
+dest_files=[ "res://.import/—Pngtree—keyboard_5443115.png-22b6a23638a3817567618505cdc12115.stex" ]
 
 [params]
 

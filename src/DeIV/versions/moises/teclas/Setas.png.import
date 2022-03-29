@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mechanicalHand.png-920153bb0eba7a0dc1b188ef190081f3.stex"
+path="res://.import/Setas.png-4a7a17a9da92e88fab022df5a2662a9c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/Objects/hardware/mechanicalHand/mechanicalHand.png"
-dest_files=[ "res://.import/mechanicalHand.png-920153bb0eba7a0dc1b188ef190081f3.stex" ]
+source_file="res://src/assets/teclas/Setas.png"
+dest_files=[ "res://.import/Setas.png-4a7a17a9da92e88fab022df5a2662a9c.stex" ]
 
 [params]
 

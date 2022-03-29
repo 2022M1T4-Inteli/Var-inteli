@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mechanicalHand.png-920153bb0eba7a0dc1b188ef190081f3.stex"
+path="res://.import/Spacebar.jpeg-8dd984577fced2260a77d636c5762d67.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/Objects/hardware/mechanicalHand/mechanicalHand.png"
-dest_files=[ "res://.import/mechanicalHand.png-920153bb0eba7a0dc1b188ef190081f3.stex" ]
+source_file="res://src/Spacebar.jpeg"
+dest_files=[ "res://.import/Spacebar.jpeg-8dd984577fced2260a77d636c5762d67.stex" ]
 
 [params]
 
