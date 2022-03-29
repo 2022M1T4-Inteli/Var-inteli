@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/left.png-9aa6d3eedeebb6ee3da23a2d839ba3f6.stex"
+path="res://.import/left.png-3be0a4924cdb9de31a53f18490ca96a4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/assets/teclas/left.png"
-dest_files=[ "res://.import/left.png-9aa6d3eedeebb6ee3da23a2d839ba3f6.stex" ]
+source_file="res://versions/moises/teclas/left.png"
+dest_files=[ "res://.import/left.png-3be0a4924cdb9de31a53f18490ca96a4.stex" ]
 
 [params]
 

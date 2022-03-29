@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Seta reta.png-2b040e24f0e603d299e51eb91b2b96ef.stex"
+path="res://.import/Seta reta.png-90a0c25a563af4ccdf8c24e32f386ba8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/assets/teclas/Seta reta.png"
-dest_files=[ "res://.import/Seta reta.png-2b040e24f0e603d299e51eb91b2b96ef.stex" ]
+source_file="res://versions/moises/teclas/Seta reta.png"
+dest_files=[ "res://.import/Seta reta.png-90a0c25a563af4ccdf8c24e32f386ba8.stex" ]
 
 [params]
 

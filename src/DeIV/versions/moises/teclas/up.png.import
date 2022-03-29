@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/up.png-51196a31aec19dc442bde38eccaf73ac.stex"
+path="res://.import/up.png-692e74151afdd3f58e493f366a2ffffa.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/assets/teclas/up.png"
-dest_files=[ "res://.import/up.png-51196a31aec19dc442bde38eccaf73ac.stex" ]
+source_file="res://versions/moises/teclas/up.png"
+dest_files=[ "res://.import/up.png-692e74151afdd3f58e493f366a2ffffa.stex" ]
 
 [params]
 

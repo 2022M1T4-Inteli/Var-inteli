@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/—Pngtree—retro light sign arrow_6496806.png-6c3697d03f2a70b4e262ec66077cd987.stex"
+path="res://.import/—Pngtree—retro light sign arrow_6496806.png-e0276512b90fb233e8b19cdc129a2243.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/assets/teclas/—Pngtree—retro light sign arrow_6496806.png"
-dest_files=[ "res://.import/—Pngtree—retro light sign arrow_6496806.png-6c3697d03f2a70b4e262ec66077cd987.stex" ]
+source_file="res://versions/moises/teclas/—Pngtree—retro light sign arrow_6496806.png"
+dest_files=[ "res://.import/—Pngtree—retro light sign arrow_6496806.png-e0276512b90fb233e8b19cdc129a2243.stex" ]
 
 [params]
 

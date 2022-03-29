@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/down.png-7b5af4e0602b2a4adf95e938e8b4bb7e.stex"
+path="res://.import/down.png-597c536e53aa55ad3904387dfeee4a30.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/assets/teclas/down.png"
-dest_files=[ "res://.import/down.png-7b5af4e0602b2a4adf95e938e8b4bb7e.stex" ]
+source_file="res://versions/moises/teclas/down.png"
+dest_files=[ "res://.import/down.png-597c536e53aa55ad3904387dfeee4a30.stex" ]
 
 [params]
 

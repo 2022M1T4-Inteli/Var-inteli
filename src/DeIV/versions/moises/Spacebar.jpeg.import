@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Spacebar.jpeg-8dd984577fced2260a77d636c5762d67.stex"
+path="res://.import/Spacebar.jpeg-5dc3e9b61a4141369d3e3133c8879983.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/Spacebar.jpeg"
-dest_files=[ "res://.import/Spacebar.jpeg-8dd984577fced2260a77d636c5762d67.stex" ]
+source_file="res://versions/moises/Spacebar.jpeg"
+dest_files=[ "res://.import/Spacebar.jpeg-5dc3e9b61a4141369d3e3133c8879983.stex" ]
 
 [params]
 

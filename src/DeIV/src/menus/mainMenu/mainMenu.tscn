@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://src/menus/mainMenu/mainMenu.gd" type="Script" id=1]
-[ext_resource path="res://src/Objects/04B_30__.TTF" type="DynamicFontData" id=2]
+[ext_resource path="res://src/assets/04B_30__.TTF" type="DynamicFontData" id=2]
 [ext_resource path="res://src/assets/wp8046564-blue-tech-wallpapers.jpg" type="Texture" id=3]
 [ext_resource path="res://src/music/Retro Beat.ogg" type="AudioStream" id=4]
 
@@ -42,12 +42,12 @@ __meta__ = {
 [node name="Label" type="Label" parent="TextureRect"]
 anchor_left = 0.5
 anchor_right = 0.5
-margin_left = -480.5
-margin_top = 100.0
-margin_right = 480.5
-margin_bottom = 161.0
+margin_left = -240.5
+margin_top = 105.0
+margin_right = 240.5
+margin_bottom = 166.0
 custom_fonts/font = SubResource( 4 )
-text = "Inteli, Under Attack!"
+text = "Var: Inteli"
 __meta__ = {
 "_edit_use_anchors_": false
 }

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/enter.png-0396121150d5a2311b217525577d8582.stex"
+path="res://.import/enter.png-0a3554a0bf26b23ea73089d8e2dfd2c6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/assets/teclas/enter.png"
-dest_files=[ "res://.import/enter.png-0396121150d5a2311b217525577d8582.stex" ]
+source_file="res://versions/moises/teclas/enter.png"
+dest_files=[ "res://.import/enter.png-0a3554a0bf26b23ea73089d8e2dfd2c6.stex" ]
 
 [params]
 

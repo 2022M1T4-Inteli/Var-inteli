@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/W.png-efd81a93ba74a22759014ca3cdc7f4d6.stex"
+path="res://.import/W.png-81e52669117c49511345aaf2f47de700.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/assets/teclas/W.png"
-dest_files=[ "res://.import/W.png-efd81a93ba74a22759014ca3cdc7f4d6.stex" ]
+source_file="res://versions/moises/teclas/W.png"
+dest_files=[ "res://.import/W.png-81e52669117c49511345aaf2f47de700.stex" ]
 
 [params]
 

@@ -92,7 +92,7 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "HardwareBase",
 "language": "GDScript",
-"path": "res://src/Objects/hardware/hardwareBase.gd"
+"path": "res://src/objects/hardware/hardwareBase.gd"
 }, {
 "base": "Resource",
 "class": "InventoryData",
@@ -345,7 +345,8 @@ move_down={
 2d_physics/layer_2="portal"
 2d_physics/layer_3="hardware"
 2d_physics/layer_4="world"
-2d_physics/layer_5="NPC"
+2d_physics/layer_5="AreaNPC"
+2d_physics/layer_6="KinematicBodyNPC"
 
 [physics]
 

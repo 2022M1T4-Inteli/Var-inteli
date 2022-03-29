@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://src/Levels/caixa de texto.png" type="Texture" id=1]
+[ext_resource path="res://src/assets/caixa de texto.png" type="Texture" id=1]
 [ext_resource path="res://src/actors/professoraAna/ProfessoraAna.gd" type="Script" id=2]
 [ext_resource path="res://src/actors/professoraAna/anaaaaaa222222.png" type="Texture" id=3]
 
