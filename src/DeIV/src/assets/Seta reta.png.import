@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/metalScrape.png-00262a992622fc698b7cd1c89a6bc7a3.stex"
+path="res://.import/Seta reta.png-e0f46b5f6ed76757a3d049543314b9b0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/objects/hardware/metalScrape/metalScrape.png"
-dest_files=[ "res://.import/metalScrape.png-00262a992622fc698b7cd1c89a6bc7a3.stex" ]
+source_file="res://src/assets/Seta reta.png"
+dest_files=[ "res://.import/Seta reta.png-e0f46b5f6ed76757a3d049543314b9b0.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -31,5 +31,5 @@ process/invert_color=false
 process/normal_map_invert_y=false
 stream=false
 size_limit=0
-detect_3d=false
+detect_3d=true
 svg/scale=1.0

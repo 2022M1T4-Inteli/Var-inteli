@@ -3,63 +3,47 @@ extends KinematicBody2D
 const GRAVITY:float = 1700.0
 const SPEED: = Vector2(600.0, 800.0)
 var _velocity: = Vector2.ZERO
+func _process(delta):
+	if global.pop == false:
+		if Input.is_action_pressed("ui_left"):
+			global.z = true
 
 
-func _ready():
-	match get_tree().current_scene.name:
-		"Tutorial":
-			pass
-		_:
-			$Camera/CanvasLayer/Label.visible = false
-			$Camera/CanvasLayer/Right.visible = false
-			$Camera/CanvasLayer/Left.visible = false
+		if Input.is_action_pressed('ui_right'):
+			global.p = true
+
+
+		if global.z == false or global.p == false:
+			
+			$Camera/CanvasLayer/Label.text = ('Mova-se para os lados usando as setas de navegacao:')
 			$Camera/CanvasLayer/Up.visible = false
 			$Camera/CanvasLayer/W.visible = false
-			$Camera/CanvasLayer/Setas.visible = false
 			
+		elif(global.z == true and global.p == true):
+			$Camera/CanvasLayer/Label.text = ('Pule pressionando a seta para cima ou W:')
+			$Camera/CanvasLayer/Right.visible = false
+			$Camera/CanvasLayer/Left.visible = false
+			$Camera/CanvasLayer/Up.visible = true
+			$Camera/CanvasLayer/W.visible = true
+			if Input.is_action_just_pressed("jump"):
+				global.q = true
+				global.j = true
 
-func _process(delta):
-	match get_tree().current_scene.name:
-		"Tutorial":
-			if global.pop == false:
-				if Input.is_action_pressed("ui_left"):
-					global.z = true
+		if global.q == true:
 
-				if Input.is_action_pressed('ui_right'):
-					global.p = true
-
-				if global.z == false or global.p == false:
-					
-					$Camera/CanvasLayer/Label.text = ('Mova-se para os lados usando as setas de navegacao:')
-					$Camera/CanvasLayer/Up.visible = false
-					$Camera/CanvasLayer/W.visible = false
-					
-				elif(global.z == true and global.p == true):
-					$Camera/CanvasLayer/Label.text = ('Pule pressionando a seta para cima ou W:')
-					$Camera/CanvasLayer/Right.visible = false
-					$Camera/CanvasLayer/Left.visible = false
-					$Camera/CanvasLayer/Up.visible = true
-					$Camera/CanvasLayer/W.visible = true
-					if Input.is_action_just_pressed("jump"):
-						global.q = true
-						global.j = true
-
-				if global.q == true:
-
-					$Camera/CanvasLayer/W.visible = false
-					$Camera/CanvasLayer/Up.visible = false
-					$Camera/CanvasLayer/Label.text = ('Muito bem! agora dirija-se ao portal\nseguindo as setas')
-				
-			else:
-				global.z = false
-				global.p = false
-				$Camera/CanvasLayer/Label.visible = false
-				$Camera/CanvasLayer/Right.visible = false
-				$Camera/CanvasLayer/Left.visible = false
-				$Camera/CanvasLayer/Up.visible = false
-				$Camera/CanvasLayer/W.visible = false
-
-
+			$Camera/CanvasLayer/W.visible = false
+			$Camera/CanvasLayer/Up.visible = false
+			$Camera/CanvasLayer/Label.text = ('Muito bem! agora dirija-se ao portal\nseguindo as setas')
+			global.pop = true
+	else:
+		global.z = false
+		global.p = false
+		$Camera/CanvasLayer/Label.visible = false
+		$Camera/CanvasLayer/Right.visible = false
+		$Camera/CanvasLayer/Left.visible = false
+		$Camera/CanvasLayer/Up.visible = false
+		$Camera/CanvasLayer/W.visible = false
+		
 func _physics_process(_delta: float) -> void:
 	match get_tree().current_scene.name: # Analisa quais cenas devem receber física e quais não devem.
 		"Hub":

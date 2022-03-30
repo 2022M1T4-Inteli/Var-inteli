@@ -5,7 +5,7 @@ func _ready():
 
 
 func _on_StartButton_pressed() -> void:
-	get_tree().change_scene("res://src/levels/hub.tscn")
+	get_tree().change_scene("res://src/levels/tutorial.tscn")
 
 
 func _on_OptionsButton_pressed() -> void:
