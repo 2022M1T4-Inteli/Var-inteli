@@ -92,7 +92,7 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "HardwareBase",
 "language": "GDScript",
-"path": "res://src/objects/hardware/hardwareBase.gd"
+"path": "res://src/Objects/hardware/hardwareBase.gd"
 }, {
 "base": "Resource",
 "class": "InventoryData",
