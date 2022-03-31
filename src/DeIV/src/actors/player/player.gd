@@ -107,6 +107,5 @@ func _input(_event: InputEvent) -> void:
 		$SoundJump.play()
 		
 
-
 func _on_Morrer_body_entered(_body: Node) -> void:
 	get_tree().change_scene("res://src/Levels/level01.tscn")

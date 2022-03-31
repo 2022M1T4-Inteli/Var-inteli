@@ -3,53 +3,31 @@ extends KinematicBody2D
 const GRAVITY:float = 1700.0
 const SPEED: = Vector2(600.0, 800.0)
 var _velocity: = Vector2.ZERO
-func _process(delta):
-	if global.pop == false:
-		if Input.is_action_pressed("ui_left"):
-			global.z = true
+var push = 100
 
 
-		if Input.is_action_pressed('ui_right'):
-			global.p = true
-
-
-		if global.z == false or global.p == false:
-			
-			$Camera/CanvasLayer/Label.text = ('Mova-se para os lados usando as setas de navegacao:')
-			$Camera/CanvasLayer/Up.visible = false
-			$Camera/CanvasLayer/W.visible = false
-			
-		elif(global.z == true and global.p == true):
-			$Camera/CanvasLayer/Label.text = ('Pule pressionando a seta para cima ou W:')
-			$Camera/CanvasLayer/Right.visible = false
-			$Camera/CanvasLayer/Left.visible = false
-			$Camera/CanvasLayer/Up.visible = true
-			$Camera/CanvasLayer/W.visible = true
-			if Input.is_action_just_pressed("jump"):
-				global.q = true
-				global.j = true
-
-		if global.q == true:
-
-			$Camera/CanvasLayer/W.visible = false
-			$Camera/CanvasLayer/Up.visible = false
-			$Camera/CanvasLayer/Label.text = ('Muito bem! agora dirija-se ao portal\nseguindo as setas')
-			global.pop = true
-	else:
-		global.z = false
-		global.p = false
-		$Camera/CanvasLayer/Label.visible = false
-		$Camera/CanvasLayer/Right.visible = false
-		$Camera/CanvasLayer/Left.visible = false
-		$Camera/CanvasLayer/Up.visible = false
-		$Camera/CanvasLayer/W.visible = false
-		
 func _physics_process(_delta: float) -> void:
 	match get_tree().current_scene.name: # Analisa quais cenas devem receber física e quais não devem.
 		"Hub":
 			var _direction: = get_non_physics_direction()
 			_velocity = calculate_non_physics_move_velocity(_direction, SPEED)
 			_velocity = move_and_slide(_velocity)
+		"level02":
+			var _direction: = get_non_physics_direction()
+			_velocity = calculate_non_physics_move_velocity(_direction, SPEED)
+			_velocity = move_and_slide(_velocity/3)
+
+			#empurrar rigid body
+			get_non_physics_direction()
+			_velocity = move_and_slide(_velocity, Vector2.ZERO, false,
+					4, PI/4, false)
+
+			for index in get_slide_count():
+				var collision = get_slide_collision(index)
+				if collision.collider.is_in_group("bodies"):
+#				var cpos = collision.collider.to_local(collision.position)
+					collision.collider.apply_central_impulse(-collision.normal * push)
+			
 		_:
 			var _direction: = get_physics_direction()
 			_velocity = calculate_physics_move_velocity(_direction, SPEED)
@@ -66,6 +44,7 @@ func get_non_physics_direction() -> Vector2:
 	return Vector2(Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
 	 Input.get_action_strength("move_down") - Input.get_action_strength("jump"))
 	
+		
 # Cálculo dos vetores em uma cena com física.
 func calculate_physics_move_velocity(_direction, SPEED) -> Vector2:
 	var _out = _velocity
@@ -94,3 +73,6 @@ func _input(_event: InputEvent) -> void:
 
 func _on_Morrer_body_entered(_body: Node) -> void:
 	get_tree().change_scene("res://src/Levels/level01.tscn")
+	
+
+

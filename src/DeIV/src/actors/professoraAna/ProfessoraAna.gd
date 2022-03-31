@@ -26,3 +26,10 @@ func _input(event):
 						dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 						dialog.connect('timeline_end', self, 'unpause')
 						add_child(dialog)
+				"Level04":
+					get_tree().paused = true
+					var dialog = Dialogic.start('timeline-1')
+					dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+					dialog.connect('timeline_end', self, 'unpause')
+					add_child(dialog)
+					global.npc_level04_done = true

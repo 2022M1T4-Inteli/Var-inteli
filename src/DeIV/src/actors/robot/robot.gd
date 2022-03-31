@@ -4,12 +4,12 @@ var _velocity = Vector2.ZERO
 var _direction
 var _jump = false
 const GRAVITY:float = 1700.0
-const speed = Vector2(1000,900)
+const speed = Vector2(6000,1200)
 
 #gravidade
 func _physics_process(_delta: float) -> void:
 	_direction = get_direction()
-	_velocity = calculate_physics_move_velocity(_direction, speed)
+	_velocity = calculate_physics_move_velocity(speed)
 	_velocity = move_and_slide(_velocity, Vector2.UP)
 
 
@@ -17,7 +17,7 @@ func get_direction():
 	return -1.0 if _jump and is_on_floor() else 1.0
 	
 
-func calculate_physics_move_velocity(_direction, speed) -> Vector2:
+func calculate_physics_move_velocity(speed) -> Vector2:
 	var _out = _velocity
 	_out.y += GRAVITY * get_physics_process_delta_time() # delta_time é o tempo que se passou entre dois frames, utilizado principalmente para manter consistência.
 	if _direction == -1.0:
@@ -38,12 +38,15 @@ func _left():
 	_velocity.x = 0
 
 func _on_ButtonLeft_pressed() -> void:
-	_left()
+	if global.npc_level04_done:
+		_left()
 
 
 func _on_ButtonRight_pressed() -> void:
-	_right()
+	if global.npc_level04_done:
+		_right()
 #
 #
 func _on_ButtonJump_pressed() -> void:
-	_jump = true
+	if global.npc_level04_done:
+		_jump = true

@@ -1,0 +1,51 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Agora, você realizará a última etapa do curso, que seria a testagem do robô."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Conforme você pode ver abaixo, botões de teste estão alocados no painel, igual o que você programou na fase anterior!"
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Siga as instruções que aparecerão na tela e certifique que a qualidade de funcionamento do produto (robô) esteja 100%"
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Até mais!"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1648661817.json",
+		"name": "timeline-1"
+	}
+}

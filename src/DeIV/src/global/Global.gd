@@ -7,6 +7,7 @@ var q = false
 var g = false
 var j = false
 var pop = false
+var npc_level04_done = false
 
 
 func _ready():
