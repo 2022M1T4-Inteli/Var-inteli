@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://src/assets/Chimbinha de frente.png" type="Texture" id=1]
 [ext_resource path="res://src/actors/player/player.gd" type="Script" id=2]
@@ -10,6 +10,7 @@
 [ext_resource path="res://src/assets/up.png" type="Texture" id=8]
 [ext_resource path="res://src/assets/right.png" type="Texture" id=9]
 [ext_resource path="res://src/assets/W.png" type="Texture" id=10]
+[ext_resource path="res://src/assets/—Pngtree—keyboard_5443115.png" type="Texture" id=11]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 41.75, 42.5 )
@@ -107,6 +108,11 @@ texture = ExtResource( 8 )
 position = Vector2( 652, 688 )
 scale = Vector2( 0.139, 0.126 )
 texture = ExtResource( 10 )
+
+[node name="—Pngtree—keyboard5443115" type="Sprite" parent="Camera/CanvasLayer/W"]
+position = Vector2( 1517.99, 15.8726 )
+scale = Vector2( 1.02846, 1.02846 )
+texture = ExtResource( 11 )
 
 [node name="Setas" type="Sprite" parent="Camera/CanvasLayer"]
 position = Vector2( 1216, 678 )
