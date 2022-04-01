@@ -2,6 +2,13 @@ extends ProfessorBase
 
 var held = false
 
+func _ready():
+	if get_tree().current_scene.name == ('level03'):
+		var dialog = Dialogic.start('timeline-8')
+		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+		dialog.connect('timeline_end', self, 'unpause')
+		add_child(dialog)
+		global.anafase3 = true
 
 func _input(event):
 	if get_node_or_null('DialogNode') == null:
@@ -20,9 +27,16 @@ func _input(event):
 						dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 						dialog.connect('timeline_end', self, 'unpause')
 						add_child(dialog)
+						global.portal = true
 					else:
 						get_tree().paused = true
 						var dialog = Dialogic.start('timeline-5')
+						dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+						dialog.connect('timeline_end', self, 'unpause')
+						add_child(dialog)
+				"level02":
+						get_tree().paused = true
+						var dialog = Dialogic.start('timeline-3')
 						dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 						dialog.connect('timeline_end', self, 'unpause')
 						add_child(dialog)

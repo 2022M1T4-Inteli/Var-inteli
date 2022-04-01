@@ -83,9 +83,6 @@ margin_bottom = 1000.0
 custom_fonts/font = SubResource( 2 )
 text = "Mova-se para os lados usando as setas de navegação:"
 align = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Right" type="Sprite" parent="Camera/CanvasLayer"]
 position = Vector2( 630.879, 663.313 )

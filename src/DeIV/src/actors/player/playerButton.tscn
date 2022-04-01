@@ -1,25 +1,25 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://src/actors/player/playerButton.gd" type="Script" id=1]
 [ext_resource path="res://src/assets/Chimbinha de frente.png" type="Texture" id=2]
 [ext_resource path="res://src/actors/player/CanvasLayerTelaPC.gd" type="Script" id=3]
 [ext_resource path="res://src/assets/background.png" type="Texture" id=4]
+[ext_resource path="res://src/actors/player/playerButtonNode.gd" type="Script" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 69.5, 59 )
 
 [node name="playerButtonNode" type="Node2D"]
+script = ExtResource( 5 )
 
 [node name="CanvasPanel" type="CanvasLayer" parent="."]
 
 [node name="Panel" type="Panel" parent="CanvasPanel"]
+visible = false
 margin_left = 540.0
 margin_top = 523.0
 margin_right = 1152.0
 margin_bottom = 699.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Left" type="Button" parent="CanvasPanel/Panel"]
 margin_left = 32.0
@@ -27,9 +27,6 @@ margin_top = 26.0
 margin_right = 201.0
 margin_bottom = 131.0
 text = "Esquerda"
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Jump" type="Button" parent="CanvasPanel/Panel"]
 margin_left = 225.0
@@ -59,22 +56,17 @@ margin_left = 2.0
 margin_right = 1922.0
 margin_bottom = 1080.0
 texture = ExtResource( 4 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 script = ExtResource( 3 )
 
 [node name="painelControle" type="ColorRect" parent="CanvasLayer"]
+visible = false
 margin_left = 92.0
 margin_top = 527.0
 margin_right = 371.0
 margin_bottom = 699.0
 color = Color( 0.176471, 0.168627, 0.168627, 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="telaPC" type="Label" parent="CanvasLayer"]
 margin_left = 98.0
@@ -82,19 +74,14 @@ margin_top = 533.0
 margin_right = 280.0
 margin_bottom = 699.0
 max_lines_visible = 10
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Clear" type="Button" parent="CanvasLayer"]
+visible = false
 margin_left = 300.0
 margin_top = 586.0
 margin_right = 354.0
 margin_bottom = 636.0
 text = "Limpar"
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="playerButton" type="KinematicBody2D" parent="."]
 collision_mask = 30

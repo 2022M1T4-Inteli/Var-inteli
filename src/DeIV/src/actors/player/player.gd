@@ -3,7 +3,8 @@ extends KinematicBody2D
 const GRAVITY:float = 1700.0
 const SPEED: = Vector2(600.0, 800.0)
 var _velocity: = Vector2.ZERO
-
+var push = 100
+var count = 0
 
 func _ready():
 	match get_tree().current_scene.name:
@@ -66,10 +67,25 @@ func _physics_process(_delta: float) -> void:
 			var _direction: = get_non_physics_direction()
 			_velocity = calculate_non_physics_move_velocity(_direction, SPEED)
 			_velocity = move_and_slide(_velocity)
+		"level02":
+			var _direction: = get_non_physics_direction()
+			_velocity = calculate_non_physics_move_velocity(_direction, SPEED)
+			_velocity = move_and_slide(_velocity/2)
+
+			#empurrar rigid body
+			get_non_physics_direction()
+			_velocity = move_and_slide(_velocity, Vector2.ZERO, false,
+					4, PI/4, false)
+			for index in get_slide_count():
+				var collision = get_slide_collision(index)
+				if collision.collider.is_in_group("bodies"):
+#				var cpos = collision.collider.to_local(collision.position)
+					collision.collider.apply_central_impulse(-collision.normal * push)
 		_:
 			var _direction: = get_physics_direction()
 			_velocity = calculate_physics_move_velocity(_direction, SPEED)
 			_velocity = move_and_slide(_velocity, Vector2.UP)
+			
 			
 
 # Direção dos vetores em uma cena com física.
@@ -107,5 +123,7 @@ func _input(_event: InputEvent) -> void:
 		$SoundJump.play()
 		
 
-func _on_Morrer_body_entered(_body: Node) -> void:
-	get_tree().change_scene("res://src/Levels/level01.tscn")
+#func _on_Morrer_body_entered(_body: Node) -> void:
+#
+#	get_tree().change_scene("res://src/Levels/level01.tscn")
+

@@ -1,0 +1,51 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ter capacidade de planejar, implementar e manter soluções computacionais eficientes para diversos tipos de problemas, envolvendo hardware, software e processos é um dos papéis do engenheiro da computação."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nesta fase iremos ver um pouco sobre programação, nesta fase tem um painel abaixo de você e botões que dão comandos de movimentação, sendo ele apenas três: Esquerda, direita e pulo."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Numa solução computacional você deve pensar em qual é o seu problema e como você pode chegar lá, o computador não entende comandos como nós, é tudo baseado na matemática. Logo, imagine que o personagem é um computador e você está no comando, porém você só pode usar 3 botões para chegar até o objetivo."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Boa sorte nessa jornada! Ah.... cuidado com os bug's, você pode ser atingido por até 5, passou disso a fase será reiniciada."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1648778396.json",
+		"name": "timeline-8"
+	}
+}

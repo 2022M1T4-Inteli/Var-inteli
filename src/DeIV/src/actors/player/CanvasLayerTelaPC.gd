@@ -20,3 +20,5 @@ func _on_Right_pressed():
 
 func _on_Clear_pressed():
 	$telaPC.text = ""
+	global.count = 0
+	global.enable = true
