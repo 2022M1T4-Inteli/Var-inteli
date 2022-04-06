@@ -1,16 +1,29 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://src/assets/tileset.tres" type="TileSet" id=1]
 [ext_resource path="res://src/actors/player/player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://src/actors/robot/robot.tscn" type="PackedScene" id=3]
 [ext_resource path="res://src/assets/04B_30__.TTF" type="DynamicFontData" id=4]
 [ext_resource path="res://src/actors/professoraAna/ProfessoraAna.tscn" type="PackedScene" id=5]
+[ext_resource path="res://src/assets/left.png" type="Texture" id=6]
+[ext_resource path="res://src/assets/right.png" type="Texture" id=7]
+[ext_resource path="res://src/assets/up.png" type="Texture" id=8]
+[ext_resource path="res://src/levels/level04.gd" type="Script" id=9]
+[ext_resource path="res://src/menus/buttonPlay.gd" type="Script" id=10]
 
 [sub_resource type="DynamicFont" id=2]
-size = 100
+size = 75
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 50
+outline_size = 3
+outline_color = Color( 1, 0.0392157, 0.0392157, 1 )
+extra_spacing_top = 12
 font_data = ExtResource( 4 )
 
 [node name="Level04" type="Node2D"]
+script = ExtResource( 9 )
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
@@ -20,55 +33,113 @@ format = 1
 tile_data = PoolIntArray( 0, 0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0, 8, 0, 0, 9, 0, 0, 10, 0, 0, 11, 0, 0, 12, 0, 0, 13, 0, 0, 14, 0, 0, 15, 0, 0, 16, 0, 0, 17, 0, 0, 18, 0, 0, 19, 0, 0, 20, 0, 0, 21, 0, 0, 22, 0, 0, 23, 0, 0, 65536, 0, 0, 65545, 0, 0, 65559, 0, 0, 131072, 0, 0, 131081, 0, 0, 131095, 0, 0, 196608, 0, 0, 196617, 0, 0, 196631, 0, 0, 262144, 0, 0, 262153, 0, 0, 262167, 0, 0, 327680, 0, 0, 327681, 0, 0, 327682, 0, 0, 327683, 0, 0, 327684, 0, 0, 327685, 0, 0, 327686, 0, 0, 327687, 0, 0, 327688, 0, 0, 327689, 0, 0, 327703, 0, 0, 393216, 0, 0, 393217, 0, 0, 393218, 0, 0, 393219, 0, 0, 393220, 0, 0, 393221, 0, 0, 393222, 0, 0, 393223, 0, 0, 393224, 0, 0, 393225, 0, 0, 393239, 0, 0, 458752, 0, 0, 458753, 0, 0, 458754, 0, 0, 458755, 0, 0, 458756, 0, 0, 458757, 0, 0, 458758, 0, 0, 458759, 0, 0, 458760, 0, 0, 458761, 0, 0, 458775, 0, 0, 524288, 0, 0, 524289, 0, 0, 524290, 0, 0, 524291, 0, 0, 524292, 0, 0, 524293, 0, 0, 524294, 0, 0, 524295, 0, 0, 524296, 0, 0, 524297, 0, 0, 524311, 0, 0, 589824, 0, 0, 589825, 0, 0, 589826, 0, 0, 589827, 0, 0, 589828, 0, 0, 589829, 0, 0, 589830, 0, 0, 589831, 0, 0, 589832, 0, 0, 589833, 0, 0, 589847, 0, 0, 655360, 0, 0, 655361, 0, 0, 655362, 0, 0, 655363, 0, 0, 655364, 0, 0, 655365, 0, 0, 655366, 0, 0, 655367, 0, 0, 655368, 0, 0, 655369, 0, 0, 655383, 0, 0, 720896, 0, 0, 720897, 0, 0, 720898, 0, 0, 720899, 0, 0, 720900, 0, 0, 720901, 0, 0, 720902, 0, 0, 720903, 0, 0, 720904, 0, 0, 720905, 0, 0, 720919, 0, 0, 786432, 0, 0, 786433, 0, 0, 786434, 0, 0, 786435, 0, 0, 786436, 0, 0, 786437, 0, 0, 786438, 0, 0, 786439, 0, 0, 786440, 0, 0, 786441, 0, 0, 786455, 0, 0, 851968, 0, 0, 851969, 0, 0, 851970, 0, 0, 851971, 0, 0, 851972, 0, 0, 851973, 0, 0, 851974, 0, 0, 851975, 0, 0, 851976, 0, 0, 851977, 0, 0, 851978, 0, 0, 851979, 0, 0, 851980, 0, 0, 851981, 0, 0, 851982, 0, 0, 851983, 0, 0, 851984, 0, 0, 851985, 0, 0, 851986, 0, 0, 851987, 0, 0, 851988, 0, 0, 851989, 0, 0, 851990, 0, 0, 851991, 0, 0 )
 
 [node name="Robot" parent="." instance=ExtResource( 3 )]
-position = Vector2( 1357, 836 )
+position = Vector2( 1322, 873 )
 
 [node name="ProfessoraAna" parent="." instance=ExtResource( 5 )]
 position = Vector2( 616, 344 )
 
 [node name="level04Menu" type="VBoxContainer" parent="."]
 margin_left = 94.0
-margin_top = 601.0
+margin_top = 484.0
 margin_right = 686.0
-margin_bottom = 930.0
+margin_bottom = 813.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonPlay" type="Button" parent="level04Menu"]
+margin_right = 592.0
+margin_bottom = 329.0
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 2 )
+disabled = true
+text = "Start"
+script = ExtResource( 10 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="ButtonLeft" type="Button" parent="level04Menu"]
-margin_right = 592.0
-margin_bottom = 107.0
-size_flags_vertical = 3
-custom_fonts/font = SubResource( 2 )
-text = "Left"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="ButtonRight" type="Button" parent="level04Menu"]
+visible = false
 margin_top = 111.0
 margin_right = 592.0
 margin_bottom = 218.0
 size_flags_vertical = 3
 custom_fonts/font = SubResource( 2 )
-text = "Right"
+text = "Esquerda"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonRight" type="Button" parent="level04Menu"]
+visible = false
+margin_top = 111.0
+margin_right = 592.0
+margin_bottom = 218.0
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 2 )
+text = "Direita"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="ButtonJump" type="Button" parent="level04Menu"]
-margin_top = 222.0
+visible = false
+margin_top = 166.0
 margin_right = 592.0
 margin_bottom = 329.0
 size_flags_vertical = 3
 custom_fonts/font = SubResource( 2 )
-text = "Jump"
+text = "Pular"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 135, 400 )
+position = Vector2( 135, 398 )
 
+[node name="Right" type="Sprite" parent="."]
+position = Vector2( 1735, 182 )
+scale = Vector2( 0.292583, 0.292583 )
+texture = ExtResource( 7 )
+
+[node name="Up" type="Sprite" parent="."]
+position = Vector2( 1335, 179 )
+scale = Vector2( 0.296337, 0.296337 )
+texture = ExtResource( 8 )
+
+[node name="Left" type="Sprite" parent="."]
+position = Vector2( 903, 182 )
+scale = Vector2( 0.293086, 0.293086 )
+texture = ExtResource( 6 )
+
+[node name="painelControle" type="ColorRect" parent="."]
+margin_left = 24.0
+margin_top = 928.0
+margin_right = 780.0
+margin_bottom = 1012.0
+color = Color( 0.176471, 0.168627, 0.168627, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="telaPC" type="Label" parent="."]
+margin_left = 38.0
+margin_top = 931.0
+margin_right = 771.0
+margin_bottom = 1005.0
+custom_fonts/font = SubResource( 3 )
+text = "Numero de erros: 0"
+max_lines_visible = 10
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="level04Menu/ButtonPlay" to="." method="_on_ButtonPlay_pressed"]
+[connection signal="pressed" from="level04Menu/ButtonPlay" to="level04Menu/ButtonPlay" method="_on_pressed"]
+[connection signal="pressed" from="level04Menu/ButtonLeft" to="." method="_on_ButtonLeft_pressed"]
 [connection signal="pressed" from="level04Menu/ButtonLeft" to="Robot" method="_on_ButtonLeft_pressed"]
+[connection signal="pressed" from="level04Menu/ButtonRight" to="." method="_on_ButtonRight_pressed"]
 [connection signal="pressed" from="level04Menu/ButtonRight" to="Robot" method="_on_ButtonRight_pressed"]
+[connection signal="pressed" from="level04Menu/ButtonJump" to="." method="_on_ButtonJump_pressed"]
 [connection signal="pressed" from="level04Menu/ButtonJump" to="Robot" method="_on_ButtonJump_pressed"]

@@ -2,13 +2,13 @@
 
 [ext_resource path="res://src/actors/player/player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://src/assets/tileset.tres" type="TileSet" id=2]
-[ext_resource path="res://src/TESTEEEEE/andre/caixa.tscn" type="PackedScene" id=3]
-[ext_resource path="res://src/TESTEEEEE/andre/level02.gd" type="Script" id=4]
+[ext_resource path="res://src/objects/caixa.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/levels/level02.gd" type="Script" id=4]
 [ext_resource path="res://src/objects/portal/portal.tscn" type="PackedScene" id=5]
 [ext_resource path="res://src/music/Chillix.mp3" type="AudioStream" id=6]
 [ext_resource path="res://src/actors/professoraAna/ProfessoraAna.tscn" type="PackedScene" id=7]
-[ext_resource path="res://src/TESTEEEEE/andre/caixabe.tscn" type="PackedScene" id=8]
-[ext_resource path="res://src/TESTEEEEE/andre/caixabd.tscn" type="PackedScene" id=9]
+[ext_resource path="res://src/objects/caixabe.tscn" type="PackedScene" id=8]
+[ext_resource path="res://src/objects/caixabd.tscn" type="PackedScene" id=9]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 108.5, 66.75 )
@@ -105,8 +105,8 @@ color = Color( 0.223529, 0.647059, 0.360784, 1 )
 position = Vector2( 2471.5, 2898.5 )
 shape = SubResource( 3 )
 
-[connection signal="body_entered" from="Portal3" to="Portal3" method="_on_Portal3_body_entered"]
 [connection signal="body_entered" from="Portal3" to="Portal3" method="_on_Portal2_body_entered"]
+[connection signal="body_entered" from="Portal3" to="Portal3" method="_on_Portal3_body_entered"]
 [connection signal="body_entered" from="coracao" to="." method="_on_coracao_body_entered"]
 [connection signal="body_entered" from="bracoesquerdo" to="." method="_on_bracoesquerdo_body_entered"]
 [connection signal="body_entered" from="bracodireito" to="." method="_on_bracodireito_body_entered"]

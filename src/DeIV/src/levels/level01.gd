@@ -41,3 +41,8 @@ func _process(delta):
 	
 func unpause(_timeline_name):
 	get_tree().paused = false
+
+
+func _on_Morrer_body_entered(body: Node) -> void:
+	global.contagem = 0
+	$Player/Camera/CanvasLayer/Label3.text = ('0/4')

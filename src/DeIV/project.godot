@@ -303,7 +303,6 @@ config/icon="res://src/assets/DeV.png"
 [autoload]
 
 global="*res://src/global/global.gd"
-checkpoint="*res://ceckpoint.gd"
 
 [editor_plugins]
 

@@ -4,6 +4,7 @@ var held = false
 
 func _ready():
 	if get_tree().current_scene.name == ('level03'):
+		get_tree().paused = true
 		var dialog = Dialogic.start('timeline-8')
 		dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 		dialog.connect('timeline_end', self, 'unpause')
@@ -49,3 +50,5 @@ func _input(event):
 					dialog.connect('timeline_end', self, 'unpause')
 					add_child(dialog)
 					global.npc_level04_done = true
+					global.startfase4 = true
+					global.buttonstart = true

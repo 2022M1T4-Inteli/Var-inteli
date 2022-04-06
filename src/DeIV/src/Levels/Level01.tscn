@@ -143,5 +143,6 @@ position = Vector2( 713, 4501 )
 monitoring = false
 path_to_scene = "res://src/levels/level03.tscn"
 
+[connection signal="body_entered" from="Morrer" to="." method="_on_Morrer_body_entered"]
 [connection signal="body_entered" from="Morrer" to="Player" method="_on_Morrer_body_entered"]
 [connection signal="body_entered" from="Portal2" to="Portal2" method="_on_Portal2_body_entered"]

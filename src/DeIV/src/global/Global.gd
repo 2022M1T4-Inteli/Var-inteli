@@ -17,8 +17,19 @@ var setaslv1 = 0
 var go = false
 var contagem = 0
 var portalhub = false
+var pontosfase04 = 0
+var buttonstart = false
+var LEFT = false
+var RIGHT = false
+var UP = false
+var startfase4 = false
+var random = false
+var play = false
+var level04_pontos = 0
+
 
 func _ready():
+	randomize()
 	OS.window_fullscreen = true # Deixa o jogo em tela cheia
 
 

@@ -14,7 +14,7 @@ func _physics_process(_delta: float) -> void:
 
 
 func get_direction():
-	return -1.0 if _jump and is_on_floor() else 1.0
+	return -1.0 if _jump else 1.0
 	
 
 func calculate_physics_move_velocity(speed) -> Vector2:
@@ -23,6 +23,7 @@ func calculate_physics_move_velocity(speed) -> Vector2:
 	if _direction == -1.0:
 		_out.y = speed.y * _direction
 	_jump = false
+	global.UP = false
 	return _out
 	
 
@@ -30,23 +31,26 @@ func _right():
 	_velocity.x = speed.x
 	_velocity = move_and_slide(_velocity)
 	_velocity.x = 0
+	global.RIGHT = false
 
 
 func _left():
 	_velocity.x = -speed.x
 	_velocity = move_and_slide(_velocity)
 	_velocity.x = 0
-
+	global.LEFT = false
+	
+	
 func _on_ButtonLeft_pressed() -> void:
-	if global.npc_level04_done:
+	if global.npc_level04_done and global.LEFT:
 		_left()
 
 
 func _on_ButtonRight_pressed() -> void:
-	if global.npc_level04_done:
+	if global.npc_level04_done and global.RIGHT:
 		_right()
 #
 #
 func _on_ButtonJump_pressed() -> void:
-	if global.npc_level04_done:
+	if global.npc_level04_done and global.UP:
 		_jump = true

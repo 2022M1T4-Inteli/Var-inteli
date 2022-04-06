@@ -7,5 +7,4 @@ func _on_body_entered(_body: PhysicsBody2D) -> void:
 	$SoundHardwareCollected.play()
 	anim_player.play("fade_out")
 	global.contagem += 1
-	checkpoint.last_position = global_position
 	

@@ -8,12 +8,21 @@ extends Node2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
-
+	$playerButtonNode/CanvasLayer/Clear.visible = false
+	$playerButtonNode/CanvasPanel/Panel/Jump.visible = false
+	$playerButtonNode/CanvasPanel/Panel/Left.visible = false
+	$playerButtonNode/CanvasPanel/Panel/Right.visible = false
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	if global.anafase3 == true:
+		$playerButtonNode/CanvasPanel/Panel.visible = true
+		$playerButtonNode/CanvasLayer/painelControle.visible = true
+		$playerButtonNode/CanvasLayer/telaPC.visible = true
+		$playerButtonNode/CanvasLayer/Clear.visible = true
+		$playerButtonNode/CanvasPanel/Panel/Left.visible = true
+		$playerButtonNode/CanvasPanel/Panel/Jump.visible = true
+		$playerButtonNode/CanvasPanel/Panel/Right.visible = true
 
 func _on_chegada_body_entered(body):
 	$Portal4.visible = true
@@ -22,4 +31,6 @@ func _on_chegada_body_entered(body):
 
 
 func _on_Area2D_body_entered(body):
-	get_tree().change_scene("res://src/levels/hub.tscn")
+	if global.pontosfase04 == 4:
+		get_tree().change_scene("res://src/levels/level04.tscn")
+	

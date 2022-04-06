@@ -4,10 +4,13 @@ var left = false
 var right = false
 var up = false
 var contagem = 0
+var velocity = Vector2.ZERO
+
 # Criadas para realizar movimentação e aplicação da gravidade na fase.
 const jumpForce = -1000
 const speed = 10000
-var velocity = Vector2.ZERO
+const UPUP = Vector2.UP
+
 
 #A plicação da gravidade, que seria o vetor + 30
 func _process(_delta):
@@ -38,3 +41,7 @@ func _on_Jump_pressed():
 	# Ativar a movimentação para cima, ele zera sozinho quando tocar no chão por causa da gravidade
 	velocity = move_and_slide(velocity, Vector2.UP)
 	global.count += 1
+
+
+func _on_Hurtbox_area_entered(area):
+	pass # Replace with function body.
