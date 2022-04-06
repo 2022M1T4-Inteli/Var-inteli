@@ -36,7 +36,7 @@ func _process(delta):
 					$Camera/CanvasLayer/W.visible = false
 					
 				elif(global.z == true and global.p == true):
-					$Camera/CanvasLayer/Label.text = ('Pule pressionando a seta para cima ou W:')
+					$Camera/CanvasLayer/Label.text = ('Pule pressionando a seta para cima, W ou spacebar:')
 					$Camera/CanvasLayer/Right.visible = false
 					$Camera/CanvasLayer/Left.visible = false
 					$Camera/CanvasLayer/Up.visible = true
