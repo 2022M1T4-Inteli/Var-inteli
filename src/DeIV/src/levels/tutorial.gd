@@ -19,4 +19,3 @@ func _process(delta):
 		$TileMap4.collision_mask = false
 		$TileMap3.visible = true
 		$TileMap4.visible = false
-		

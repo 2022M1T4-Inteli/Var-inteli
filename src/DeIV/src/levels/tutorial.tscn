@@ -29,7 +29,7 @@ tile_data = PoolIntArray( -131077, 0, 0, -131076, 0, 0, -131075, 0, 0, -131074, 
 
 [node name="Portal" parent="." instance=ExtResource( 3 )]
 position = Vector2( 3253, 2015 )
-path_to_scene = "res://src/levels/hub.tscn"
+path_to_scene = "res://src/levels/level01.tscn"
 
 [node name="Seta" type="Sprite" parent="."]
 visible = false

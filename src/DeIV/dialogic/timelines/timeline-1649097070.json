@@ -1,0 +1,33 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1649096936.json",
+			"event_id": "dialogic_002",
+			"mirror": true,
+			"portrait": "mechanicalHand",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1649096936.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Mão mecânica: Uma mão feita de metal, fios de cobre e outros materiais que fazem essa mão mexer os dedos, para dar ao robô a função de agarrar, segurar objetos e ter precisão em… arremessar coisas, se precisar!"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1649097070.json",
+		"name": "MaoMecanica"
+	}
+}

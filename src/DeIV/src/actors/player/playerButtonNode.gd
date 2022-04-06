@@ -17,5 +17,3 @@ func _process(delta):
 		$CanvasPanel/Panel/Jump.disabled = false 
 		$CanvasPanel/Panel/Right.disabled = false
 		$CanvasPanel/Panel/Left.disabled = false
-
-

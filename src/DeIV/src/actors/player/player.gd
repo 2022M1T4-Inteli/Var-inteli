@@ -61,6 +61,7 @@ func _process(delta):
 				$Camera/CanvasLayer/W.visible = false
 
 
+
 func _physics_process(_delta: float) -> void:
 	match get_tree().current_scene.name: # Analisa quais cenas devem receber física e quais não devem.
 		"Hub":
@@ -123,7 +124,6 @@ func _input(_event: InputEvent) -> void:
 		$SoundJump.play()
 		
 
-#func _on_Morrer_body_entered(_body: Node) -> void:
-#
-#	get_tree().change_scene("res://src/Levels/level01.tscn")
-
+func _on_Morrer_body_entered(_body: Node) -> void:
+	$Camera/CanvasLayer/Label3.text = ('0/4')
+	get_tree().reload_current_scene()

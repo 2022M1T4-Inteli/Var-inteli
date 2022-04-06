@@ -7,7 +7,7 @@
 [ext_resource path="res://src/actors/player/playerButtonNode.gd" type="Script" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 69.5, 59 )
+extents = Vector2( 52.5, 53.5 )
 
 [node name="playerButtonNode" type="Node2D"]
 script = ExtResource( 5 )
@@ -96,13 +96,14 @@ limit_smoothed = true
 drag_margin_h_enabled = true
 drag_margin_v_enabled = true
 
-[node name="Sprite" type="Sprite" parent="playerButton"]
-scale = Vector2( 0.652344, 0.542969 )
-texture = ExtResource( 2 )
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="playerButton"]
-position = Vector2( 4.5, -2 )
+position = Vector2( 5.5, -7.5 )
 shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="playerButton"]
+position = Vector2( 3, 0 )
+scale = Vector2( 0.458063, 0.442437 )
+texture = ExtResource( 2 )
 
 [connection signal="pressed" from="CanvasPanel/Panel/Left" to="CanvasLayer" method="_on_Left_pressed"]
 [connection signal="pressed" from="CanvasPanel/Panel/Left" to="playerButton" method="_on_Left_pressed"]

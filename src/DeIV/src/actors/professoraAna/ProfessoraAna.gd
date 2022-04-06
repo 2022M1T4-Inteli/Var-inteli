@@ -20,6 +20,8 @@ func _input(event):
 					dialog.pause_mode = Node.PAUSE_MODE_PROCESS
 					dialog.connect('timeline_end', self, 'unpause')
 					add_child(dialog)
+					global.portalhub = true
+					
 				"Level01":
 					if global.hardware == [true, true, true, true]:
 						get_tree().paused = true

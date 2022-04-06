@@ -4,7 +4,7 @@
 [ext_resource path="res://src/actors/player/player.gd" type="Script" id=2]
 [ext_resource path="res://src/assets/background.png" type="Texture" id=3]
 [ext_resource path="res://src/sounds/jump1.ogg" type="AudioStream" id=4]
-[ext_resource path="res://src/assets/04B_30__.TTF" type="DynamicFontData" id=5]
+[ext_resource path="res://src/assets/CaviarDreams.ttf" type="DynamicFontData" id=5]
 [ext_resource path="res://src/assets/left.png" type="Texture" id=6]
 [ext_resource path="res://src/assets/Setas.png" type="Texture" id=7]
 [ext_resource path="res://src/assets/up.png" type="Texture" id=8]
@@ -71,7 +71,6 @@ editor_draw_drag_margin = true
 layer = 100
 
 [node name="Label" type="Label" parent="Camera/CanvasLayer"]
-modulate = Color( 0, 0, 0, 1 )
 anchor_left = -0.505
 anchor_top = -0.5
 anchor_right = 0.5
@@ -79,9 +78,37 @@ anchor_bottom = 0.5
 margin_left = -205.88
 margin_top = 969.0
 margin_right = 1488.0
-margin_bottom = 1000.0
+margin_bottom = 407.0
 custom_fonts/font = SubResource( 2 )
 text = "Mova-se para os lados usando as setas de navegação:"
+align = 1
+
+[node name="Label2" type="Label" parent="Camera/CanvasLayer"]
+visible = false
+anchor_left = -0.505
+anchor_top = -0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -202.88
+margin_top = 1036.0
+margin_right = 1491.0
+margin_bottom = 1067.0
+custom_fonts/font = SubResource( 2 )
+text = "0/4"
+align = 1
+
+[node name="Label3" type="Label" parent="Camera/CanvasLayer"]
+visible = false
+anchor_left = -0.505
+anchor_top = -0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 1721.12
+margin_top = 361.0
+margin_right = 760.0
+margin_bottom = -192.0
+custom_fonts/font = SubResource( 2 )
+text = "0/4"
 align = 1
 
 [node name="Right" type="Sprite" parent="Camera/CanvasLayer"]
