@@ -20,6 +20,8 @@ func _ready():
 			
 
 func _process(delta):
+	if Input.is_action_pressed('move_down'):
+		global.hardware = [true, true, true, true]
 	match get_tree().current_scene.name:
 		"Tutorial":
 			if global.pop == false:
@@ -59,7 +61,6 @@ func _process(delta):
 				$Camera/CanvasLayer/Left.visible = false
 				$Camera/CanvasLayer/Up.visible = false
 				$Camera/CanvasLayer/W.visible = false
-
 
 
 func _physics_process(_delta: float) -> void:

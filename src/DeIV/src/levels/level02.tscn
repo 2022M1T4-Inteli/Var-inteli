@@ -87,6 +87,9 @@ margin_top = 2858.0
 margin_right = 445.0
 margin_bottom = 2972.0
 color = Color( 0.384314, 0.0352941, 0.505882, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="bracoesquerdo"]
 position = Vector2( 358.5, 2915.5 )
