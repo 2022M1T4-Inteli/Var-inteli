@@ -10,8 +10,8 @@ func _process(delta):
 	$Portal.visible = false
 #	if global.portalhub == true:
 #
-	if Input.is_action_just_pressed("ui_down"):
-		global.hardware = [true,true,true,true]
+#	if Input.is_action_just_pressed("ui_down"):
+#		global.hardware = [true,true,true,true]
 	if global.portal == true:
 #	if global.hardware == [true,true,true,true]:
 		$Portal2.monitoring = true

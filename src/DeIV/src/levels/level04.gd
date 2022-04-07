@@ -8,6 +8,8 @@ func _ready() -> void:
 	$Right.visible = false
 	$Up.visible = false
 	$Left.visible = false
+	$Area2D.monitoring = false
+	$Area2D.visible = false
 	
 
 func _process(_delta):
@@ -17,6 +19,9 @@ func _process(_delta):
 		get_tree().change_scene("res://src/Levels/level04.tscn")
 		global.level04_pontos = 0
 		errors = 0
+	if global.level04_pontos == 10:
+		$Area2D.monitoring = true
+		$Area2D.visible = true
 		
 
 func _on_ButtonPlay_pressed() -> void:
@@ -74,3 +79,7 @@ func randomizer():
 			$Right.visible = true
 		3:
 			$Up.visible = true
+
+
+func _on_Area2D_body_entered(body: Node) -> void:
+	get_tree().change_scene("res://src/levels/hub.tscn")

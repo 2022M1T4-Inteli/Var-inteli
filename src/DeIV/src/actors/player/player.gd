@@ -23,10 +23,10 @@ func _process(delta):
 	match get_tree().current_scene.name:
 		"Tutorial":
 			if global.pop == false:
-				if Input.is_action_pressed("ui_left"):
+				if Input.is_action_pressed("move_left"):
 					global.z = true
 
-				if Input.is_action_pressed('ui_right'):
+				if Input.is_action_pressed('move_right'):
 					global.p = true
 
 				if global.z == false or global.p == false:
