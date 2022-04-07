@@ -3,7 +3,7 @@
 [ext_resource path="res://src/assets/Chimbinha de frente.png" type="Texture" id=1]
 [ext_resource path="res://src/actors/player/player.gd" type="Script" id=2]
 [ext_resource path="res://src/assets/background.png" type="Texture" id=3]
-[ext_resource path="res://src/sounds/jump1.ogg" type="AudioStream" id=4]
+[ext_resource path="res://src/objects/sounds/jump1.ogg" type="AudioStream" id=4]
 [ext_resource path="res://src/assets/CaviarDreams.ttf" type="DynamicFontData" id=5]
 [ext_resource path="res://src/assets/left.png" type="Texture" id=6]
 [ext_resource path="res://src/assets/Setas.png" type="Texture" id=7]
@@ -11,6 +11,7 @@
 [ext_resource path="res://src/assets/right.png" type="Texture" id=9]
 [ext_resource path="res://src/assets/W.png" type="Texture" id=10]
 [ext_resource path="res://src/assets/—Pngtree—keyboard_5443115.png" type="Texture" id=11]
+
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 41.75, 42.5 )
