@@ -140,7 +140,7 @@ func fade_out(time = 0.5):
 	var end = modulate
 	end.a = 0
 	tween_modulate(modulate, end, time)
-	$Tween.connect("tween_all_completed", self, "queue_free")
+#	$Tween.connect("tween_all_completed", self, "queue_free")
 
 
 func focus():

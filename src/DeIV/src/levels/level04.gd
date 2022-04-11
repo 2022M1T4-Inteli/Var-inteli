@@ -16,7 +16,7 @@ func _process(_delta):
 	if global.buttonstart == true:
 		$level04Menu/ButtonPlay.disabled = false
 	if errors == 3:
-		get_tree().change_scene("res://src/Levels/level04.tscn")
+		get_tree().reload_current_scene()
 		global.level04_pontos = 0
 		errors = 0
 	if global.level04_pontos == 10:
@@ -40,9 +40,11 @@ func _on_ButtonLeft_pressed() -> void:
 		global.level04_pontos += 1
 		global.LEFT = true
 		randomizer()
+		$SoundCorrect.play()
 	else:
 		errors += 1
 		$telaPC.text = str("Numero de erros: ", errors)
+		$SoundError.play()
 		
 
 func _on_ButtonRight_pressed() -> void:
@@ -51,9 +53,11 @@ func _on_ButtonRight_pressed() -> void:
 		global.level04_pontos += 1
 		global.RIGHT = true
 		randomizer()
+		$SoundCorrect.play()
 	else:
 		errors += 1
 		$telaPC.text = str("Numero de erros: ", errors)
+		$SoundError.play()
 
 
 func _on_ButtonJump_pressed() -> void:
@@ -62,12 +66,11 @@ func _on_ButtonJump_pressed() -> void:
 		global.level04_pontos += 1
 		global.UP = true
 		randomizer()
+		$SoundCorrect.play()
 	else:
 		errors += 1
 		$telaPC.text = str("Numero de erros: ", errors)
-		
-
-# Utilizar seed para criar um verdadeiro RNG
+		$SoundError.play()
 
 
 func randomizer():
@@ -81,5 +84,5 @@ func randomizer():
 			$Up.visible = true
 
 
-func _on_Area2D_body_entered(body: Node) -> void:
+func _on_Area2D_body_entered(_body: Node) -> void:
 	get_tree().change_scene("res://src/levels/hub.tscn")

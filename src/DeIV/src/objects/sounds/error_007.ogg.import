@@ -11,5 +11,5 @@ dest_files=[ "res://.import/error_007.ogg-09592979c46f07778d5b5f62f48a240f.oggst
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

@@ -9,7 +9,15 @@ var count = 0
 func _ready():
 	match get_tree().current_scene.name:
 		"Tutorial":
-			pass
+			$Camera/CanvasLayer/Reset.visible = false
+		"Level02":
+			$Camera/CanvasLayer/Label.visible = false
+			$Camera/CanvasLayer/Right.visible = false
+			$Camera/CanvasLayer/Left.visible = false
+			$Camera/CanvasLayer/Up.visible = false
+			$Camera/CanvasLayer/W.visible = false
+			$Camera/CanvasLayer/Setas.visible = false
+			$Camera/CanvasLayer/Reset.visible = true
 		_:
 			$Camera/CanvasLayer/Label.visible = false
 			$Camera/CanvasLayer/Right.visible = false
@@ -17,11 +25,12 @@ func _ready():
 			$Camera/CanvasLayer/Up.visible = false
 			$Camera/CanvasLayer/W.visible = false
 			$Camera/CanvasLayer/Setas.visible = false
+			$Camera/CanvasLayer/Reset.visible = false
 			
 
-func _process(delta):
-	if Input.is_action_pressed('move_down'):
-		global.hardware = [true, true, true, true]
+func _process(_delta):
+#	if Input.is_action_pressed('move_down'):
+#		global.hardware = [true, true, true, true]
 	match get_tree().current_scene.name:
 		"Tutorial":
 			if global.pop == false:
@@ -69,7 +78,7 @@ func _physics_process(_delta: float) -> void:
 			var _direction: = get_non_physics_direction()
 			_velocity = calculate_non_physics_move_velocity(_direction, SPEED)
 			_velocity = move_and_slide(_velocity)
-		"level02":
+		"Level02":
 			var _direction: = get_non_physics_direction()
 			_velocity = calculate_non_physics_move_velocity(_direction, SPEED)
 			_velocity = move_and_slide(_velocity/2)
@@ -127,4 +136,8 @@ func _input(_event: InputEvent) -> void:
 
 func _on_Morrer_body_entered(_body: Node) -> void:
 	$Camera/CanvasLayer/Label3.text = ('0/4')
+	get_tree().reload_current_scene()
+
+
+func _on_Reset_pressed() -> void:
 	get_tree().reload_current_scene()

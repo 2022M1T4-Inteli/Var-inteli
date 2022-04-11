@@ -21,12 +21,3 @@ func change_scene() -> void:
 
 func _get_configuration_warning() -> String:
 	return "The next scene property can't be empty" if not path_to_scene else ""
-
-
-func _on_Portal2_body_entered(body):
-	if global.hardware == [true,true,true,true]:
-		change_scene()
-#
-#
-#func _on_Portal3_body_entered(body):
-#	change_scene()

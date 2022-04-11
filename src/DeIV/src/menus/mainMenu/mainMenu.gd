@@ -9,7 +9,7 @@ func _on_StartButton_pressed() -> void:
 	get_tree().change_scene('res://src/levels/hub.tscn')
 
 func _on_OptionsButton_pressed() -> void:
-	get_tree().change_scene('res://Control.tscn')
+	get_tree().change_scene("res://src/menus/optionsMenu/optionsMenu.tscn")
 
 
 func _on_QuitButton_pressed() -> void:

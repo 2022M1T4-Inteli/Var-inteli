@@ -12,7 +12,6 @@
 [ext_resource path="res://src/assets/W.png" type="Texture" id=10]
 [ext_resource path="res://src/assets/—Pngtree—keyboard_5443115.png" type="Texture" id=11]
 
-
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 41.75, 42.5 )
 
@@ -143,3 +142,15 @@ texture = ExtResource( 11 )
 position = Vector2( 1216, 678 )
 scale = Vector2( 0.0670968, 0.0670391 )
 texture = ExtResource( 7 )
+
+[node name="Reset" type="Button" parent="Camera/CanvasLayer"]
+margin_left = 1172.0
+margin_top = 664.0
+margin_right = 1274.0
+margin_bottom = 714.0
+text = "Reset"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Camera/CanvasLayer/Reset" to="." method="_on_Reset_pressed"]

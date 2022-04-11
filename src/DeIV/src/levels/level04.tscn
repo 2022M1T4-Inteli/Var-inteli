@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://src/assets/tileset.tres" type="TileSet" id=1]
 [ext_resource path="res://src/actors/player/player.tscn" type="PackedScene" id=2]
@@ -10,6 +10,8 @@
 [ext_resource path="res://src/assets/up.png" type="Texture" id=8]
 [ext_resource path="res://src/levels/level04.gd" type="Script" id=9]
 [ext_resource path="res://src/menus/buttonPlay.gd" type="Script" id=10]
+[ext_resource path="res://src/objects/sounds/confirmation_001.ogg" type="AudioStream" id=11]
+[ext_resource path="res://src/objects/sounds/error_007.ogg" type="AudioStream" id=12]
 
 [sub_resource type="DynamicFont" id=2]
 size = 75
@@ -158,6 +160,12 @@ __meta__ = {
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 135, 398 )
+
+[node name="SoundCorrect" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 11 )
+
+[node name="SoundError" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 12 )
 
 [connection signal="pressed" from="level04Menu/ButtonPlay" to="." method="_on_ButtonPlay_pressed"]
 [connection signal="pressed" from="level04Menu/ButtonPlay" to="level04Menu/ButtonPlay" method="_on_pressed"]

@@ -4,7 +4,6 @@
 [ext_resource path="res://src/objects/hardware/mechanicalHand/mechanicalHand.gd" type="Script" id=2]
 [ext_resource path="res://src/objects/sounds/confirmation_002.ogg" type="AudioStream" id=3]
 
-
 [sub_resource type="CircleShape2D" id=1]
 radius = 34.0147
 

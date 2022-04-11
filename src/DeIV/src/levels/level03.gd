@@ -14,7 +14,7 @@ func _ready():
 	$playerButtonNode/CanvasPanel/Panel/Right.visible = false
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _process(_delta):
 	if global.anafase3 == true:
 		$playerButtonNode/CanvasPanel/Panel.visible = true
 		$playerButtonNode/CanvasLayer/painelControle.visible = true
@@ -24,13 +24,13 @@ func _process(delta):
 		$playerButtonNode/CanvasPanel/Panel/Jump.visible = true
 		$playerButtonNode/CanvasPanel/Panel/Right.visible = true
 
-func _on_chegada_body_entered(body):
+func _on_chegada_body_entered(_body):
 	$Portal4.visible = true
 	$Portal4.monitorable = true
 	$Portal4.monitoring = true
 
 
-func _on_Area2D_body_entered(body):
+func _on_Area2D_body_entered(_body):
 	if global.pontosfase04 == 4:
 		get_tree().change_scene("res://src/levels/level04.tscn")
 	
