@@ -30,13 +30,19 @@
 			"character": "character-1647281645.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Numa solução computacional você deve pensar em qual é o seu problema e como você pode chegar lá, o computador não entende comandos como nós, é tudo baseado na matemática. Logo, imagine que o personagem é um computador e você está no comando, porém você só pode usar 3 botões para chegar até o objetivo."
+			"text": "A linguagem de programação aqui é o InteliScript, nele você só pode executar três comandos: Esquerda, direita e pulo."
 		},
 		{
 			"character": "character-1647281645.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Boa sorte nessa jornada! Ah.... cuidado com os bug's, você pode ser atingido por até 5, passou disso a fase será reiniciada."
+			"text": "Com essa linguagem de programação destrua todos os bug's que estão presentes nessa fase, basta pular em cima deles."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, você tem um limite de 10 comandos, após isso a memória irá encher e terá que ser limpada. Divirta-se!"
 		},
 		{
 			"event_id": "dialogic_022",

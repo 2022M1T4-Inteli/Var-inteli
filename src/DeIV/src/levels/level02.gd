@@ -1,7 +1,7 @@
 extends Node2D
 
 
-func _process(delta):
+func _process(_delta):
 	if global.pronto == [true,true,true]:
 		$Portal3.visible = true
 		$Portal3.monitoring = true

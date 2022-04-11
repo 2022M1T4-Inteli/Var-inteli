@@ -21,7 +21,26 @@
 			"text": "Agora que você coletou os itens, é bom eu te contar sobre pra que eles servem!"
 		},
 		{
-			"character": "character-1647281645.json",
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1649715990.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1649715990.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "A carcaça de metal serve para proteger os componentes internos do braço robótico e torná-lo resistente, e isso também serve para o restante de um robô, da cabeça aos pés!"
@@ -57,28 +76,54 @@
 			"event_id": "dialogic_003"
 		},
 		{
-			"character": "character-1647281645.json",
-			"event_id": "dialogic_001",
+			"action": "join",
+			"character": "character-1649211260.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
 			"portrait": "",
-			"text": "Os sensores coletados servem para que o braço robótico identifique a sua distância em relação a qualquer objeto, para ele não trombar e quebrar em um acidente."
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
 		},
 		{
-			"character": "character-1647281645.json",
+			"character": "character-1649211260.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Da mesma forma, esses sensores podem indicar sobrecarga do sistema, ao detectar diferentes temperaturas que podem estragar o metal com um alto nível de calor."
+			"text": "O sensor é um hardware que pode ter diversas utilizadas como identificar distância, movimentos e etc."
 		},
 		{
-			"character": "character-1647281645.json",
-			"event_id": "dialogic_001",
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1649715886.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
 			"portrait": "",
-			"text": "Ah! Os sensores também podem indicar a temperatura de algo à distância, para que o robô informe essa temperatura ao seu programador."
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
 		},
 		{
-			"character": "character-1647281645.json",
+			"character": "character-1649715886.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "O eixo cilíndrico é um cilindro de ferro que permite a dobra do cotovelo e o giro do pulso do braço robótico, para dar flexibilidade a essas regiões desse protótipo de braço."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
 		},
 		{
 			"event_id": "dialogic_022",

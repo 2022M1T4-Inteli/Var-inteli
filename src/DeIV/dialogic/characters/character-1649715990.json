@@ -1,11 +1,11 @@
 {
-	"color": "#ff008dff",
+	"color": "#ffffffff",
 	"description": "",
 	"display_name": "",
 	"display_name_bool": false,
-	"id": "character-1649211260.json",
+	"id": "character-1649715990.json",
 	"mirror_portraits": false,
-	"name": "Sensor",
+	"name": "Carcaça de Metal",
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 0,
@@ -13,7 +13,7 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://src/objects/hardware/sensor/sensor.png"
+			"path": "res://src/objects/hardware/metalScrape/metalScrape.png"
 		}
 	],
 	"scale": 800

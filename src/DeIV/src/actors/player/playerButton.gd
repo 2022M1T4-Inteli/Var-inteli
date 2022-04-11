@@ -41,7 +41,3 @@ func _on_Jump_pressed():
 	# Ativar a movimentação para cima, ele zera sozinho quando tocar no chão por causa da gravidade
 	velocity = move_and_slide(velocity, Vector2.UP)
 	global.count += 1
-
-
-func _on_Hurtbox_area_entered(area):
-	pass # Replace with function body.

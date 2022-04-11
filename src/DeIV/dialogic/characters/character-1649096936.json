@@ -13,10 +13,6 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
-		},
-		{
-			"name": "mechanicalHand",
 			"path": "res://src/objects/hardware/mechanicalHand/mechanicalHand.png"
 		}
 	],
