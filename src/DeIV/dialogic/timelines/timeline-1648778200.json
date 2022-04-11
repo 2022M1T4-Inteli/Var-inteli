@@ -18,25 +18,31 @@
 			"character": "character-1647281645.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "O engenheiro da computação tem conhecimentos sólidos em ciências da computação, matemática, ciências e engenharia."
+			"text": "Em questão de manuseio de hardware, o engenheiro da computação mexe principalmente com circuitos elétricos, ou seja, os componentes da parte interna do robô."
 		},
 		{
 			"character": "character-1647281645.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Bom, na fase passada você encaixou as peças do robô externamente, mas o Engenheiro da Computação pode mexer com circuitos, ou seja, conectar a parte interna do robô."
+			"text": "Sua missão aqui é levar os fios criados para os lugares corretos empurrando os circuitos em suas respectivas áreas.\n"
 		},
 		{
 			"character": "character-1647281645.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Sua missão aqui é levar os fios criados para os lugares corretos criando os circuitos\nPara saber quais são os lugares corretos, olhe a cor do fio e localize a área com a mesma cor."
+			"text": "Para saber quais são os lugares corretos, olhe a cor do circuito e localize a área com a mesma cor."
 		},
 		{
 			"character": "character-1647281645.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Para movimentar os fios basta empurra-los com o personagem para direção que você queira."
+			"text": "Depois de todos os circuitos empurrados, um portal aparecerá perto do coração do robô e você irá para o próximo nível."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Até mais!"
 		},
 		{
 			"event_id": "dialogic_022",
