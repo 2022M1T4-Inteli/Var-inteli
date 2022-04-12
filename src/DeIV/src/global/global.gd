@@ -26,6 +26,7 @@ var startfase4 = false
 var random = false
 var play = false
 var level04_pontos = 0
+var finalfase4 = false
 
 
 func _ready():

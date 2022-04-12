@@ -24,7 +24,7 @@
 			"character": "character-1647281645.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Nesta fase iremos ver um pouco sobre programação, nesta fase tem um painel abaixo de você e botões que dão comandos de movimentação, sendo ele apenas três: Esquerda, direita e pulo."
+			"text": "Nesta fase iremos ver um pouco sobre programação, há um painel abaixo de você e botões que dão comandos de movimentação."
 		},
 		{
 			"character": "character-1647281645.json",
@@ -36,7 +36,7 @@
 			"character": "character-1647281645.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Com essa linguagem de programação destrua todos os bug's que estão presentes nessa fase, basta pular em cima deles."
+			"text": "Com essa linguagem de programação destrua todos os bugs que estão presentes nessa fase, basta pular em cima deles."
 		},
 		{
 			"character": "character-1647281645.json",

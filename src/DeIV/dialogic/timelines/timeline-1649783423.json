@@ -1,0 +1,69 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Agora que você passou por todas as fases, você entendeu que o  engenheiro da computação é capaz de construir hardwares e softwares."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A estrutura curricular do curso é formada por disciplinas de Matemática, Física, Química e Computação."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Quando se faz engenharia da computação você pode trabalhar fazendo integração de circuito eletrônicos de máquina e desenvolvendo placas de ligação entre os equipamentos e os acessórios."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Você poderá trabalhar também construindo programas de computadores e aplicativos de mais diversos fins. Outras áreas são nas partes de automação e robótica."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "O salário médio de um engenheiro da computação no país é de R$ 6.526,00, de acordo com dados de 2021 do Novo Cadastro Geral de Empregados e Desempregados (Novo Caged)."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Saiba que as carreiras não são lineares, então é importante sempre estar aberto as possibilidades e entender as especificações de cada curso, as quais são diferentes entre si."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Agora você pode voltar pro Hub e explorar outros ateliês. Tchau!"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1649783423.json",
+		"name": "timeline-panel"
+	}
+}

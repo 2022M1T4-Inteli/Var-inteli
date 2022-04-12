@@ -52,3 +52,10 @@ func _input(event):
 					global.npc_level04_done = true
 					global.startfase4 = true
 					global.buttonstart = true
+				"panel":
+					get_tree().paused = true
+					var dialog = Dialogic.start('timeline-panel')
+					dialog.pause_mode = Node.PAUSE_MODE_PROCESS
+					dialog.connect('timeline_end', self, 'unpause')
+					add_child(dialog)
+					global.finalfase4 = true

@@ -149,4 +149,3 @@ shape = SubResource( 2 )
 [connection signal="pressed" from="CanvasPanel/Panel/Right" to="CanvasLayer" method="_on_Right_pressed"]
 [connection signal="pressed" from="CanvasPanel/Panel/Right" to="playerButton" method="_on_Right_pressed"]
 [connection signal="pressed" from="CanvasLayer/Clear" to="CanvasLayer" method="_on_Clear_pressed"]
-[connection signal="area_entered" from="playerButton/Hurtbox" to="playerButton" method="_on_Hurtbox_area_entered"]

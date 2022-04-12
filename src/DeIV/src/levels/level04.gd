@@ -85,4 +85,4 @@ func randomizer():
 
 
 func _on_Area2D_body_entered(_body: Node) -> void:
-	get_tree().change_scene("res://src/levels/hub.tscn")
+	get_tree().change_scene("res://src/levels/panel.tscn")

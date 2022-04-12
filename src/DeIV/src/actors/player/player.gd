@@ -140,4 +140,5 @@ func _on_Morrer_body_entered(_body: Node) -> void:
 
 
 func _on_Reset_pressed() -> void:
+	global.pronto = [false, false, false]
 	get_tree().reload_current_scene()
