@@ -1,6 +1,6 @@
 extends Node2D
 
-# Called when the node enters the scene tree for the first time.
+# Muda o layout to Tutorial caso o jogador o conclua
 func _process(_delta):
 	if global.q == true:
 		$TileMap3.visible = true

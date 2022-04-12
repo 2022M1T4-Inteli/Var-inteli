@@ -13,6 +13,7 @@ func _process(_delta):
 	$Sprite2.visible = active
 
 
+# A função que chama unpause se encontra dentro dos NPCs
 func unpause(_timeline_name):
 	get_tree().paused = false
 	

@@ -4,6 +4,7 @@ extends Node2D
 var errors = 0
 
 
+# Portal e setas começam desativadas.
 func _ready() -> void:
 	$Right.visible = false
 	$Up.visible = false
@@ -12,6 +13,7 @@ func _ready() -> void:
 	$Area2D.visible = false
 	
 
+# Condições de caso o jogador perca ou ganhe.
 func _process(_delta):
 	if global.buttonstart == true:
 		$level04Menu/ButtonPlay.disabled = false
@@ -23,7 +25,8 @@ func _process(_delta):
 		$Area2D.monitoring = true
 		$Area2D.visible = true
 		
-
+		
+# Botão de play que inicia o mini-game
 func _on_ButtonPlay_pressed() -> void:
 	if global.npc_level04_done:
 		randomizer()
@@ -34,6 +37,7 @@ func _on_ButtonPlay_pressed() -> void:
 		$level04Menu/ButtonJump.visible = true
 
 
+# Botões que movimentam o robô e somam pontos
 func _on_ButtonLeft_pressed() -> void:
 	if global.random == 1:
 		$Left.visible = false
@@ -73,6 +77,7 @@ func _on_ButtonJump_pressed() -> void:
 		$SoundError.play()
 
 
+# Gera um número aleatório que indica qual seta aparecerá
 func randomizer():
 	global.random = randi() % 3 + 1
 	match global.random:

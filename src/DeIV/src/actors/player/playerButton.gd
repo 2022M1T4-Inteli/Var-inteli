@@ -12,7 +12,7 @@ const speed = 10000
 const UPUP = Vector2.UP
 
 
-#A plicação da gravidade, que seria o vetor + 30
+# Aplicação da gravidade, que seria o vetor + 30
 func _process(_delta):
 	velocity.y = velocity.y + 30
 	velocity = move_and_slide(velocity)

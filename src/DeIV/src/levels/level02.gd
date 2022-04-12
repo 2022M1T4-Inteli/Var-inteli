@@ -1,6 +1,7 @@
 extends Node2D
 
 
+# Ativa o portal para a próxima fase caso todas as caixas já estiverem em seus respectivos lugares
 func _process(_delta):
 	if global.pronto == [true,true,true]:
 		$Portal3.visible = true
@@ -8,6 +9,7 @@ func _process(_delta):
 		$Portal3.monitorable = true
 		
 		
+# Funções que checam se o corpo entrado nas áreas são caixas		
 func _on_coracao_body_entered(body):
 	if body is RigidBody2D:
 		global.pronto[0] = true

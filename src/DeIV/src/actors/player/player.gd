@@ -29,8 +29,7 @@ func _ready():
 			
 
 func _process(_delta):
-#	if Input.is_action_pressed('move_down'):
-#		global.hardware = [true, true, true, true]
+	# Checa se está no Tutorial para as teclas aparecerem caso esteja, e desaparecer caso não
 	match get_tree().current_scene.name:
 		"Tutorial":
 			if global.pop == false:
