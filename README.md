@@ -134,5 +134,5 @@ Aqui estão as referências usadas no projeto.
 <a href="https://www.youtube.com/watch?v=h8QmAgPQU_s"> Coupe - The Grand Affair - [NCS Release] </a> - Music provided by: NoCopyrightSounds<br>
 <a href="https://www.youtube.com/watch?v=-WqPYbW4n7M"> Extenz </a> - Music provided by: Vlog Nocopyright Sound<br>
 <a href="https://www.youtube.com/watch?v=mrgVpZhjOWk"> Jeremy Blake </a> - Music provided by: No Copyright Music<br>
-<a href="https://www.youtube.com/watch?v=CO6gpC4het8"> Vibe Mountain </a> - Music provided by YouTube Audio Library<br>
+<a href="https://www.youtube.com/watch?v=CO6gpC4het8"> Vibe Mountain </a> - Music provided by: YouTube Audio Library<br>
 <a href="https://www.youtube.com/watch?v=3HjG1Y4QpVA"> LAKEY INSPIRED </a> - Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
