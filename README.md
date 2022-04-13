@@ -129,4 +129,10 @@ Aqui estão as referências usadas no projeto.
 1. <https://github.com/iuricode/readme-template>
 2. <https://github.com/gabrieldejesus/readme-model>
 3. <https://creativecommons.org/share-your-work/>
-4. Músicas por: <a href="https://www.youtube.com/watch?v=58_lDv9blJk"> Sappheiros </a>, <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+4. Músicas por:
+<a href="https://www.youtube.com/watch?v=58_lDv9blJk"> Sappheiros </a> - Creative Commons music (CC BY 3.0).
+<a href="https://www.youtube.com/watch?v=h8QmAgPQU_s"> Coupe - The Grand Affair - [NCS Release] </a> - Music provided by: NoCopyrightSounds
+<a href="https://www.youtube.com/watch?v=-WqPYbW4n7M"> Extenz </a> - Music provided by: Vlog Nocopyright Sound
+<a href="https://www.youtube.com/watch?v=mrgVpZhjOWk"> Jeremy Blake </a> - Music provided by: No Copyright Music
+<a href="https://www.youtube.com/watch?v=CO6gpC4het8"> Vibe Mountain </a> - Music provided by YouTube Audio Library
+<a href="https://www.youtube.com/watch?v=3HjG1Y4QpVA"> LAKEY INSPIRED </a> - Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
