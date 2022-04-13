@@ -18,15 +18,17 @@ Nosso projeto é um jogo no qual aborda sobre as possibilidades do curso de Enge
 <br><br>
 <p align="center">
 <img src="https://i.imgur.com/51eMoTz.png" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+  Game by DeIV
 </p>
 
 
 💡 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
 <br><br>
-Nosso jogo tem como intuito de mostrar as possibilidades de carreiras na área de Engenharia da Computação, podendo ser adaptado para .
-<br><br>
-May the force be with you!
+
+  Nosso projeto aborda a área de TI, na qual existe uma alta demanda de profissionais, e grande parte dos que chegam para supri-la se encontram com diversas possibilidades de carreiras nesta área; Essa diversidade de carreiras e a falta de materiais claros sobre o assunto faz com que pessoas que querem ingressar na carreira de tecnologia tenham dúvidas sobre qual curso de graduação escolher.         
+  Fizemos uma versão gamificada de exemplos das competências do curso de Engenharia da Computação, dinamizando o aprendizado sobre o mesmo. Nosso game tem design minimalista, e ainda que com mecânicas simples, obstáculos desafiadores que o tornam atrativo, aberto e acessível para todos os públicos.
+  
+
 <br><br>
 
 ## 🛠 Estrutura de pastas
@@ -35,7 +37,7 @@ May the force be with you!
 |<br>
 |-->documentos<br>
   &emsp;|-->antigos<br>
-  &emsp;|GDD.docx ou Documentação.docx<br>
+  &emsp;|GDD_T4_M1_G2_DeIV_Var-Inteli_v_5_0).pdf<br>
 |-->executáveis<br>
   &emsp;|-->windows<br>
   &emsp;|-->android<br>
@@ -111,22 +113,14 @@ Coloque código do prompt de comnando se for necessário
 
 A cada atualização os detalhes devem ser lançados aqui.
 
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
+
+* 1.0.0 - 13/04/2022
+* 
     * Trabalho em andamento
 
 ## 📋 Licença/License
 
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Spidus/Teste_Final_1">MODELO GIT INTELI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.yggbrasil.com.br/vr">INTELI, VICTOR BRUNO ALEXANDER ROSETTI DE QUIROZ</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Spidus/Teste_Final_1">MODELO GIT INTELI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.yggbrasil.com.br/vr">INTELI, ANDRÉ LUÍS LESSA JUNIOR, JONAS VIANA SALES, MOISES CAZÉ DE SOUZA SANTOS, OLIVER GOMES DA SILVA</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
 
 ## 🎓 Referências
 
@@ -135,5 +129,10 @@ Aqui estão as referências usadas no projeto.
 1. <https://github.com/iuricode/readme-template>
 2. <https://github.com/gabrieldejesus/readme-model>
 3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+4. Músicas por:<br>
+<a href="https://www.youtube.com/watch?v=58_lDv9blJk"> Sappheiros </a> - Creative Commons music (CC BY 3.0).<br>
+<a href="https://www.youtube.com/watch?v=h8QmAgPQU_s"> Coupe - The Grand Affair - [NCS Release] </a> - Music provided by: NoCopyrightSounds<br>
+<a href="https://www.youtube.com/watch?v=-WqPYbW4n7M"> Extenz </a> - Music provided by: Vlog Nocopyright Sound<br>
+<a href="https://www.youtube.com/watch?v=mrgVpZhjOWk"> Jeremy Blake </a> - Music provided by: No Copyright Music<br>
+<a href="https://www.youtube.com/watch?v=CO6gpC4het8"> Vibe Mountain </a> - Music provided by: YouTube Audio Library<br>
+<a href="https://www.youtube.com/watch?v=3HjG1Y4QpVA"> LAKEY INSPIRED </a> - Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
