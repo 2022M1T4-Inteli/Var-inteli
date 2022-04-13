@@ -60,8 +60,8 @@ __meta__ = {
 [node name="Label" type="Label" parent="CanvasLabel"]
 margin_left = 7.0
 margin_top = 2.0
-margin_right = 204.0
-margin_bottom = 84.0
+margin_right = 317.0
+margin_bottom = 131.0
 custom_fonts/font = SubResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false

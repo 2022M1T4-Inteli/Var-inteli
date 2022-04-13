@@ -30,7 +30,13 @@
 			"character": "character-1647281645.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Siga as instruções que aparecerão na tela e certifique que a qualidade de funcionamento do produto (robô) esteja 100%"
+			"text": "Siga as instruções que aparecerão na tela e certifique que a qualidade de funcionamento do produto (robô) esteja 100%."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Faça 10 testagens para averiguar que tudo está nos conformes."
 		},
 		{
 			"character": "character-1647281645.json",

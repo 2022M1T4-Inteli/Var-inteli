@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Vibe Mountain - Operatic 3.ogg-e1af9fed843244889b1aef96ba7a7a2b.oggstr"
+
+[deps]
+
+source_file="res://src/music/Vibe Mountain - Operatic 3.ogg"
+dest_files=[ "res://.import/Vibe Mountain - Operatic 3.ogg-e1af9fed843244889b1aef96ba7a7a2b.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

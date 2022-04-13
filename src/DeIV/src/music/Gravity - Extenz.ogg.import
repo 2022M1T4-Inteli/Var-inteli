@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Gravity - Extenz.ogg-9f5d032ae480c88ef1b65f65984b3ee6.oggstr"
+
+[deps]
+
+source_file="res://src/music/Gravity - Extenz.ogg"
+dest_files=[ "res://.import/Gravity - Extenz.ogg-9f5d032ae480c88ef1b65f65984b3ee6.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -45,6 +45,7 @@ func _on_ButtonLeft_pressed() -> void:
 		global.LEFT = true
 		randomizer()
 		$SoundCorrect.play()
+		$Acertos.text = str("Testes corretos: ", global.level04_pontos)
 	else:
 		errors += 1
 		$telaPC.text = str("Numero de erros: ", errors)
@@ -58,6 +59,7 @@ func _on_ButtonRight_pressed() -> void:
 		global.RIGHT = true
 		randomizer()
 		$SoundCorrect.play()
+		$Acertos.text = str("Testes corretos: ", global.level04_pontos)
 	else:
 		errors += 1
 		$telaPC.text = str("Numero de erros: ", errors)
@@ -71,6 +73,7 @@ func _on_ButtonJump_pressed() -> void:
 		global.UP = true
 		randomizer()
 		$SoundCorrect.play()
+		$Acertos.text = str("Testes corretos: ", global.level04_pontos)
 	else:
 		errors += 1
 		$telaPC.text = str("Numero de erros: ", errors)

@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://src/assets/tileset.tres" type="TileSet" id=1]
 [ext_resource path="res://src/actors/player/player.tscn" type="PackedScene" id=2]
@@ -12,6 +12,7 @@
 [ext_resource path="res://src/menus/buttonPlay.gd" type="Script" id=10]
 [ext_resource path="res://src/objects/sounds/confirmation_001.ogg" type="AudioStream" id=11]
 [ext_resource path="res://src/objects/sounds/error_007.ogg" type="AudioStream" id=12]
+[ext_resource path="res://src/music/Jeremy Blake - Powerup.ogg" type="AudioStream" id=13]
 
 [sub_resource type="DynamicFont" id=2]
 size = 75
@@ -20,7 +21,7 @@ font_data = ExtResource( 4 )
 [sub_resource type="DynamicFont" id=3]
 size = 50
 outline_size = 3
-outline_color = Color( 1, 0.0392157, 0.0392157, 1 )
+outline_color = Color( 0.0784314, 0.262745, 0.647059, 1 )
 extra_spacing_top = 12
 font_data = ExtResource( 4 )
 
@@ -137,6 +138,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="Acertos" type="Label" parent="."]
+margin_left = 33.0
+margin_top = 403.0
+margin_right = 766.0
+margin_bottom = 477.0
+custom_fonts/font = SubResource( 3 )
+text = "Testes corretos: 0"
+max_lines_visible = 10
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="Area2D" type="Area2D" parent="."]
 modulate = Color( 1, 0.180392, 0.180392, 1 )
 position = Vector2( 89, 310 )
@@ -165,6 +178,11 @@ stream = ExtResource( 11 )
 
 [node name="SoundError" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 12 )
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
+stream = ExtResource( 13 )
+autoplay = true
 
 [connection signal="pressed" from="level04Menu/ButtonPlay" to="." method="_on_ButtonPlay_pressed"]
 [connection signal="pressed" from="level04Menu/ButtonPlay" to="level04Menu/ButtonPlay" method="_on_pressed"]

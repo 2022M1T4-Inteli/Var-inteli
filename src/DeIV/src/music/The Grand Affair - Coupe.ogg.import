@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/The Grand Affair - Coupe.ogg-e5032ed854c15010a1f0460be14d5e31.oggstr"
+
+[deps]
+
+source_file="res://src/music/The Grand Affair - Coupe.ogg"
+dest_files=[ "res://.import/The Grand Affair - Coupe.ogg-e5032ed854c15010a1f0460be14d5e31.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

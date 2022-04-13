@@ -48,13 +48,13 @@
 			"character": "character-1647281645.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Saiba que as carreiras não são lineares, então é importante sempre estar aberto as possibilidades e entender as especificações de cada curso, as quais são diferentes entre si."
+			"text": "Saiba que as carreiras não são lineares, então é importante sempre estar aberto as possibilidades."
 		},
 		{
 			"character": "character-1647281645.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Agora você pode voltar pro Hub e explorar outros ateliês. Tchau!"
+			"text": "Agora você pode voltar pro Hub e explore outros ateliês. Tchau!"
 		},
 		{
 			"event_id": "dialogic_022",

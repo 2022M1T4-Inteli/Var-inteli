@@ -5,7 +5,7 @@
 [ext_resource path="res://src/objects/caixa.tscn" type="PackedScene" id=3]
 [ext_resource path="res://src/levels/level02.gd" type="Script" id=4]
 [ext_resource path="res://src/objects/portal/portal.tscn" type="PackedScene" id=5]
-[ext_resource path="res://src/music/Chillix.mp3" type="AudioStream" id=6]
+[ext_resource path="res://src/music/The Grand Affair - Coupe.ogg" type="AudioStream" id=6]
 [ext_resource path="res://src/actors/professoraAna/ProfessoraAna.tscn" type="PackedScene" id=7]
 [ext_resource path="res://src/objects/caixabe.tscn" type="PackedScene" id=8]
 [ext_resource path="res://src/objects/caixabd.tscn" type="PackedScene" id=9]
@@ -69,12 +69,6 @@ mode = 2
 mass = 30.0
 gravity_scale = 0.0
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-pause_mode = 2
-stream = ExtResource( 6 )
-volume_db = -5.0
-autoplay = true
-
 [node name="ProfessoraAna" parent="." instance=ExtResource( 7 )]
 position = Vector2( 1394, 3103 )
 
@@ -112,6 +106,12 @@ position = Vector2( 1169, 3133 )
 
 [node name="AudioConfirmed" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 10 )
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
+pause_mode = 2
+stream = ExtResource( 6 )
+volume_db = -5.0
+autoplay = true
 
 [connection signal="body_entered" from="coracao" to="." method="_on_coracao_body_entered"]
 [connection signal="body_entered" from="bracoesquerdo" to="." method="_on_bracoesquerdo_body_entered"]

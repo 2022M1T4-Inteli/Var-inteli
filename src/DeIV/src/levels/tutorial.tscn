@@ -5,7 +5,7 @@
 [ext_resource path="res://src/objects/portal/portal.tscn" type="PackedScene" id=3]
 [ext_resource path="res://src/assets/—Pngtree—retro light sign arrow_6496806.png" type="Texture" id=4]
 [ext_resource path="res://src/levels/tutorial.gd" type="Script" id=5]
-[ext_resource path="res://src/music/Chillix.mp3" type="AudioStream" id=6]
+[ext_resource path="res://src/music/Vibe Mountain - Operatic 3.ogg" type="AudioStream" id=6]
 
 [node name="Tutorial" type="Node2D"]
 position = Vector2( 1153, 94 )
