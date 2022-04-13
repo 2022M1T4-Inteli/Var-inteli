@@ -28,8 +28,7 @@ Nosso projeto é um jogo no qual aborda sobre as possibilidades do curso de Enge
   Nosso projeto aborda a área de TI, na qual existe uma alta demanda de profissionais, e grande parte dos que chegam para supri-la se encontram com diversas possibilidades de carreiras nesta área, essa diversidade de carreiras e a falta de materiais claros sobre o assunto faz com que pessoas que querem ingressar na carreira de tecnologia tenham dúvidas sobre qual curso de graduação escolher.         
   Fizemos uma versão gamificada de exemplos das competências do curso de Engenharia da Computação, dinamizando o aprendizado sobre o mesmo. Nosso game tem design minimalista, e ainda que com mecânicas simples, obstáculos desafiadores que o tornam atrativo, aberto e acessível para todos os públicos.
   
-<br><br>
-May the force be with you!
+
 <br><br>
 
 ## 🛠 Estrutura de pastas
