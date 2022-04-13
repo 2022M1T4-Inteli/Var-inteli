@@ -1,0 +1,20 @@
+{
+	"color": "#ff008dff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1649211260.json",
+	"mirror_portraits": false,
+	"name": "Sensor",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -180,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://src/objects/hardware/sensor/sensor.png"
+		}
+	],
+	"scale": 800
+}

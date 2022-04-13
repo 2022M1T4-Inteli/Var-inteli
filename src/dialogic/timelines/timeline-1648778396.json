@@ -1,0 +1,57 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ter capacidade de planejar, implementar e manter soluções computacionais eficientes para diversos tipos de problemas, envolvendo hardware, software e processos é um dos papéis do engenheiro da computação."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nesta fase iremos ver um pouco sobre programação, há um painel abaixo de você e botões que dão comandos de movimentação."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A linguagem de programação aqui é o InteliScript, nele você só pode executar três comandos: Esquerda, direita e pulo."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Com essa linguagem de programação destrua todos os bugs que estão presentes nessa fase, basta pular em cima deles."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, você tem um limite de 10 comandos, após isso a memória irá encher e terá que ser limpada. Divirta-se!"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1648778396.json",
+		"name": "timeline-8"
+	}
+}

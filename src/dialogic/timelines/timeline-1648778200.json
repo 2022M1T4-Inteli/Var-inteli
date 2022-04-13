@@ -1,0 +1,57 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Em questão de manuseio de hardware, o engenheiro da computação mexe principalmente com circuitos elétricos, ou seja, os componentes da parte interna do robô."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sua missão aqui é levar os fios criados para os lugares corretos empurrando os circuitos em suas respectivas áreas.\n"
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Para saber quais são os lugares corretos, olhe a cor do circuito e localize a área com a mesma cor."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Depois de todos os circuitos empurrados, um portal aparecerá perto do coração do robô e você irá para o próximo nível."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Até mais!"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1648778200.json",
+		"name": "timeline-3"
+	}
+}

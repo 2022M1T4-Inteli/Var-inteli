@@ -1,0 +1,45 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Olá! Bem vindo ao Ateliê 1. Meu nome é Ana, sou formada em Engenharia da Computação."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A engenharia da computação pode trabalhar tanto na produção de software, quanto de hardware, fazendo também a integração desses sistemas."
+		},
+		{
+			"character": "character-1647281645.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Entre no portal e divirta-se com os desafios aprendendo mais sobre engenharia da computação."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1647281660.json",
+		"name": "timeline-2"
+	}
+}
