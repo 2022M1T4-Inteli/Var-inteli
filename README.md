@@ -18,13 +18,13 @@ Nosso projeto é um jogo no qual aborda sobre as possibilidades do curso de Enge
 <br><br>
 <p align="center">
 <img src="https://i.imgur.com/51eMoTz.png" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+  Game by DeIV <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
 </p>
 
 
 💡 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
 <br><br>
-Nosso jogo tem como intuito de mostrar as possibilidades de carreiras na área de Engenharia da Computação, podendo ser adaptado para .
+Nosso jogo tem como intuito de mostrar as possibilidades de carreiras na área de Engenharia da Computação, podendo ser adaptado para os demais cursos. Gamifica o aprendizado sobre as competência do curso Engenharia da Computação, possui mecânicas simples                    
 <br><br>
 May the force be with you!
 <br><br>
