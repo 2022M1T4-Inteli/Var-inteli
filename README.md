@@ -18,7 +18,7 @@ Nosso projeto é um jogo no qual aborda sobre as possibilidades do curso de Enge
 <br><br>
 <p align="center">
 <img src="https://i.imgur.com/51eMoTz.png" alt="NOME DO JOGO" border="0">
-  Game by DeIV <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
+  Game by DeIV
 </p>
 
 
