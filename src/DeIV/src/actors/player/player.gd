@@ -16,6 +16,8 @@ func _ready():
 			$Camera/CanvasLayer/Left.visible = false
 			$Camera/CanvasLayer/Up.visible = false
 			$Camera/CanvasLayer/W.visible = false
+			$Camera/CanvasLayer/Right/A.visible = false
+			$Camera/CanvasLayer/Right/D.visible = false
 			$Camera/CanvasLayer/Setas.visible = false
 			$Camera/CanvasLayer/Reset.visible = true
 		_:
@@ -24,6 +26,8 @@ func _ready():
 			$Camera/CanvasLayer/Left.visible = false
 			$Camera/CanvasLayer/Up.visible = false
 			$Camera/CanvasLayer/W.visible = false
+			$Camera/CanvasLayer/Right/A.visible = false
+			$Camera/CanvasLayer/Right/D.visible = false
 			$Camera/CanvasLayer/Setas.visible = false
 			$Camera/CanvasLayer/Reset.visible = false
 			
