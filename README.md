@@ -4,27 +4,27 @@
 <a href= "https://www.inteli.edu.br/"><img src="https://www.inteli.edu.br/wp-content/uploads/2021/08/20172028/marca_1-2.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0"></a>
 </p>
 
-# Nome do Projeto
+# VAR: Inteli
 
-## Nome do Grupo
+## DEIV
 
-## Integrantes: <a href="https://www.linkedin.com/in/andr%C3%A9-lu%C3%ADs-lessa-junior-779801205/">André Luís Lessa Junior</a>, <a href="https://www.linkedin.com/in/victorbarq/">Jonas Viana Sales</a>, <a href="https://www.linkedin.com/in/victorbarq/">Moises Cazé</a>, <a href="https://www.linkedin.com/in/victorbarq/">Oliver Silva</a>
+## Integrantes: <a href="https://www.linkedin.com/in/andr%C3%A9-lu%C3%ADs-lessa-junior-779801205/">André Luís Lessa Junior</a>, <a href="https://https://www.linkedin.com/in/jonas-viana-sales-a637ab237//">Jonas Viana Sales</a>, <a href="https://www.linkedin.com/in/moises-caze-735a99231/">Moises Cazé</a>, <a href="https://www.linkedin.com/in/victorbarq/">Oliver Silva</a>
 
 ## Descrição
 
 📜 Descrição curta sobre o que seu projeto faz.
 <br><br>
-Meu projeto é um exemplo de como utilizar o github.
+Nosso projeto é um jogo no qual aborda sobre as possibilidades do curso de Engenharia da Computação, cujo a gameficação se deu com base nas diretrizes do MEC e da grade curricular do Inteli.
 <br><br>
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
+<img src="https://i.imgur.com/51eMoTz.png" alt="NOME DO JOGO" border="0">
   Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
 
 💡 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
 <br><br>
-Meu projeto ajuda estudantes inteli a configurarem seus githubs.
+Nosso jogo tem como intuito de mostrar as possibilidades de carreiras na área de Engenharia da Computação, podendo ser adaptado para .
 <br><br>
 May the force be with you!
 <br><br>
