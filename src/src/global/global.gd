@@ -31,7 +31,7 @@ var finalfase4 = false
 
 func _ready():
 	randomize() # Cria uma nova seed toda vez que o jogo é iniciado, utilizado no Level04
-	OS.window_fullscreen = true # Deixa o jogo em tela cheia
+#	OS.window_fullscreen = true # Deixa o jogo em tela cheia
 
 
 # Termina o jogo caso ESC seja pressionado
